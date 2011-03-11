@@ -1,0 +1,45 @@
+Funcionamento das famílias cadastradas:
+
+Será feita uma visita a família para que possa estar apta ou não para receber a doação de cesta basica mensal. Para isso é feito um cadastro completo referente a familia, contendo a identificação, composição familiar e situação de moradia.
+
+Cada família que é cadastrada e possui um número único de matricula que terá prazo de validade de 1 ano a contar da data do cadastro. Vencido o período de 1 ano, a família irá ganhar um status de pendencia, aguandando uma nova visita domiciliar para atualização dos dados cadastrais.
+
+A família para receber o status de apta ou não apta precisa preencher alguns requisitos pre-estabilecidos, como: frequencia continua nas reunião espiritas do representante ou de um dos familiáres com justificativa.
+
+
+Funcionamento dos voluntário cadastrados:
+
+Será feito um cadastro simples do voluntário, que irá conter o seu nome, RG, CPF, endereço, telefone; se quer ou não ser colaborador com mantimento, lanche, vestuário ou financeiro. Tendo o aceite, o mesmo terá que assinar um termo referente a lei do voluntário, nº 9.608 de 18 de fevereiro de 1998, mediante a assinatura de duas testemunhas.
+
+Funcionamento do controle de estoque:
+
+O mantimento é recebido pela instituição e cadastrado no sistema assim que chega o qual é enviado para o estoque. No último sábado do mês é feita a montagem das cestas para que sejam distribuidas para as famílias carentes cadastradas no sistema e aptas a receber.
+
+A cesta basica é composta de mantimentos nescessários para atender as famílias com os pre-requisitos cadastrados. Caso falte algum item necessário no estoque para a montagem de uma cesta, o sistema deverá informar qual item e a quantidade que precisa para que possa ser atingido a base para atender a todas familias cadastradas e aptas. 
+
+O sistema mostrará quantas cestas é possível ser montadas com a quantidade de mantimento disponível no estoque.
+
+O sistema deverá informar os alimentos que estarão com o prazo de validade vencendo em um mês a partir da data de doação.
+
+
+
+
+--------------------------------------------------------------------------
+	O DAS faz um controle rígido para averiguar as famílias que estão aptas nos requisitos programáticos para que possam receber as cestas básicas.
+	É feito um cadastro, bem detalhado de toda a família, aonde compõe-se de sua identificação, composição familiar – estes com ou sem dependentes, a variar a faixa etária –, situação de moradia – a abranger toda a documentação pessoal, carteiras de vacinação, grau de escolaridade e saúde –, também é passado por um perfil de cada pessoa para obter conhecimento se alguns dos familiares precisa de acompanhamento psicológico, se há capacitação para trabalhar e se participam de algum projeto oferecido pelo governo para instituições de baixa renda.
+	Há também um cadastro dos voluntários que fazem doações, tanto financeiramente quanto de alimentos.
+	Existe, ainda, um terceiro cadastro referente a pessoas que fazem doações de lanches – esses doadores geralmente são padarias e supermercados – com a finalidade de atender a algum tipo de evento que o Centro Espírita esteja proporcionando.
+	Um controle de estoque muito rudimentar e manual é feito toda semana com o objetivo de montar cestas suficientes para atender todas as famílias, o que muitas vezes não é suficiente devido a não conformidade e atraso na contagem dos mantimentos.
+
+
+------------------------------------
+2.8.1 Gráfico de Gantt
+
+O gráfico de Gantt faz um resumo do monitoramento das atividades que serão exercidas durante o projeto, permitindo, assim, a construção do projeto, possibilitando a visualização gráfica do planejamento; é, portanto, a junção de todo esforço a envolver técnicas de custo, desenvolvimento da programação, aquisição de recursos e gerenciamento de risco.
+A produtividade das tarefas exercidas são exibidas no gráfico de Gantt, que permite uma visualização rápida e clara de todo o projeto, que por sua vez pode ser visualizada por toda equipe que estar a desenvolver o projeto.
+------------------------------------
+15/03 e 16/03
+26/04 e 27/04
+31/05 e 04/06
+
+
