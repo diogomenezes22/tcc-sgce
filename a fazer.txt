@@ -1,0 +1,31 @@
+﻿Cap 2  
+
+
+- Escopo - (Tales) OK
+
+- Plano de processo de desenvolvimento - (Tales) OK
+
+- Metodologia de desenvolvimento - (Tales) OK
+
+- Estrutura analitica - (Rafael) OK, *(Terminado por Tales)
+
+- Estimativa de tamanho, esforço e prazo (Rafael) OK, **Falta revisar
+
+- Plano de organização - (Tales) OK
+
+- Plano de monitoramento e controle - (Tales) OK
+
+- Cronograma (Rafael)
+
+- Plano de recursos humanos (Tales) OK
+
+- Plano de recusrsos gerais - (Tales) OK. Rafael, apenas complete.
+
+- Plano de custos (Rafael)
+
+- Plano de testes - (Tales) OK
+
+- Plano de treinamento (Tales) OK
+
+- Plano de implantação (Tales) OK
+
