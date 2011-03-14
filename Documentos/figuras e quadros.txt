@@ -4,20 +4,27 @@ Figura 3 – Plano organizacional
 Figura 4 – Cronograma de atividades
 Figura 5 – Gráfico de Gantt
 
+------
 
-Quadro 1 – Entradas Externas
-Quadro 2 – Saídas Externas
-Quadro 3 – Arquivos Lógicos Internos
-Quadro 4 – Consultas Externas
-Quadro 5 – Cálculo do FPA não ajustado
-Quadro 6 – Somatório dos níveis de Influência
-Quadro 7 – Estimativa de esforço
-Quadro 8 – Funções e responsabilidades
-Quadro 9 – Custo de software
-Quadro 10 – Custo de Hardware
-Quadro 11 – Custo de Mão de Obra
-Quadro 12 – Custo com outras despesas
+Quadro 1 – Acompanhamento de versões
+Quadro 2 – Entradas Externas
+Quadro 3 – Saídas Externas
+Quadro 4 – Arquivos Lógicos Internos
+Quadro 5 – Consultas Externas
+Quadro 6 – Cálculo do FPA não ajustado
+Quadro 7 – Somatório dos níveis de Influência
+Quadro 8 – Estimativa de esforço
+Quadro 9 – Funções e responsabilidades
+Quadro 10 – Custo de software
+Quadro 11 – Custo de Hardware
+Quadro 12 – Custo de Mão de Obra
 Quadro 13 – Custo com outras despesas
+Quadro 14 – Custo com outras despesas
 
 
-
+Quadro 15 – Tabela de Complexidade de Entrada
+Quadro 16 – Tabela de Complexidade de Saída
+Quadro 17 – Tabela de Complexidade ALI
+Quadro 18 – Tabela de Complexidade AIE
+Quadro 19 – Tabela de Complexidade de Consulta
+Quadro 20 – Tabela de pesos para FPA
