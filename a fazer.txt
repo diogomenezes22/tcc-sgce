@@ -2,34 +2,18 @@
 
 
 - Escopo - (Tales) OK
-
 - Plano de processo de desenvolvimento - (Tales) OK
-
 - Metodologia de desenvolvimento - (Tales) OK
-
 - Estrutura analitica - (Rafael) OK, *(Terminado por Tales)
-
 - Estimativa de tamanho, esforço e prazo (Rafael) OK
-
 - Plano de organização - (Tales) OK
-
 - Plano de monitoramento e controle - (Tales) OK
-
 - Cronograma (Rafael) OK
-
 - Plano de recursos humanos (Tales) OK
-
 - Plano de recusrsos gerais - (Tales) OK
-
 - Plano de custos (Rafael) OK
-
 - Plano de testes - (Tales) OK
-
 - Plano de treinamento (Tales) OK
-
 - Plano de implantação (Tales) OK
 ==============================================================
-Cap 2 terminado, faltando revisar formatações, incluir sumário
-e Bibliografia; acrescentar na lista de siglas, WBS e FPA
 
-Colocar StarUML como software Livre.

@@ -1,1 +1,10 @@
 FACHIN, Odília. Fundamentos de metodologia. 4.ed. São Paulo: Saraiva, 2003.
+
+PRESSMAN, S. R.; Engenharia de software. 6. ed. São Paulo. McGraw-Hill.2006.
+
+LONGSTREET, D.; Function Point Training and Analysis Course. Lumberton, 2008.
+
+PROJETC MANAGEMENT INSTITUTE, INC. Guia PMBOK. 3 ed. Four Campus Boulevard. Newtown Square, Pennsylvania. 2004.
+
+TONSIG, S. L. Engenharia de Software. São Paulo. Futura, 2003.
+
