@@ -17,3 +17,49 @@
 - Plano de implantação (Tales) OK
 ==============================================================
 
+
+
+consertos realizados:
+pag 7 : quadro14) nome errado -> consertado.
+
+pag 16: palavra ChromE estava sem o "E" -> consertado
+
+pag 17: gerencia sem o circunflexo -> consertado
+	propuser -> trocado para propuserem
+	"teve um concesso" -> tivemos um consenso
+	integra -> íntegra
+
+pag 18: "seve" -> serve
+	"estar fazendo" -> fazer
+
+pag24: adicionado pequeno texto fazendo referencia aos quadros anexados no fim do capitulo utilizados nos calculos do FPA.
+
+pag 31: construindo -> construÍDO
+
+pag 32: erronia -> errônea
+
+pag 34: estar -> está
+
+pag 39: referencia no texto errada referenciando quadro 10 ao invez do quadro 11 -> arrumado!
+
+pag 40: erro de referencia-> arrumado onde era quadro 11 passa pra quadro 12
+
+	erro de referencia-> arrumado onde era quadro 7 passa pra quadro 8
+
+pag 41: "o quadro 13" -> o quadro 14
+
+pag 42: "funcionou corretamento" -> corretamentE
+	"minimizar o máximo com o aparecimento de defeitos"-> ao máximo o aparecimento
+
+pag 43: repeticao da palavra componente -> arrumado!
+	"Atécnica" -> falta de espaço arrumado!
+	falta de plural na palavra "incumbido" e "repassar" -> arrumado!
+	precisaram -> trocado para precisarEm ARRUMADO
+	
+pag 44: "de forma que o esse ...." -> de forma que o mesmo.
+	
+pag 46: "que poderiam estar a ser adquiridos" -> "poderiam ser adquiridos"
+	"ferramentas livres nao possuir" -> possuirem
+
+	
+
