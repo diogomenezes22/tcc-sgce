@@ -1,4 +1,14 @@
-﻿Cap 2  
+﻿Arrumar:
+- item 1.1 ultima linha
+- pag 30 (legenda do quadro)
+
+- como foi calculado no FPA que trabalharemos 3 horas por dia durante 3 dias na semana(4,5 semanas=1 mes), ENTAO no custo com mão de obra tem que mudar pois o calculo atual esta feito por MES.
+	MUDAR ESTE CÁLCULO PARA HORAS. Diminuindo o custo do software.
+
+
+
+
+Cap 2  
 
 
 - Escopo - (Tales) OK
