@@ -1,8 +1,29 @@
 ﻿CAP 3
 
+- Requisitos do cliente - OK
+- Requisitos do software
+	- Fronteiras do software - OK
+	- Itens de software - OK
+	- Lista de requisitos não funcionais - OK
+	- Requisitos funcionais - OK
+		- Esquema dos atores - OK
+	- Descrição de casos de uso - OK
+		- Modelos de casos de uso - OK
+- Especificação de caso de uso (Incompleto)
+- Requisitos de dados (Incompleto)
+- Modelo Conceitual de Dados
+- Entidades e Atributos
+- Melhoramentos Previstos
 
-
-
+REVISÕES
+- Revisão de estimativas
+- Considerações preliminares
+- Estimativa de tamanho de Software
+- Estimativa de esforço
+- Estimativa de prazo
+- Cronograma revisado
+- Revisão dos custos estimados
+- Considerações finais sobre a revisão de estimativas
 
 --------------------------------------------------------------
 Cap 2  
