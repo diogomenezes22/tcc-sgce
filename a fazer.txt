@@ -9,10 +9,10 @@
 		- Esquema dos atores - OK
 	- Descrição de casos de uso - OK
 		- Modelos de casos de uso - OK
-- Especificação de caso de uso (Incompleto)
-- Requisitos de dados (Incompleto)
-- Modelo Conceitual de Dados
-- Entidades e Atributos
+- Especificação de caso de uso - OK
+- Requisitos de dados - OK
+- Modelo Conceitual de Dados - OK
+- Entidades e Atributos - OK
 - Melhoramentos Previstos
 
 REVISÕES
