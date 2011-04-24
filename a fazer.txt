@@ -13,14 +13,14 @@
 - Requisitos de dados - OK
 - Modelo Conceitual de Dados - OK
 - Entidades e Atributos - OK
-- Melhoramentos Previstos
+- Melhoramentos Previstos - OK
 
 REVISÕES
-- Revisão de estimativas
-- Considerações preliminares
-- Estimativa de tamanho de Software
-- Estimativa de esforço
-- Estimativa de prazo
+- Revisão de estimativas - OK
+- Considerações preliminares - OK
+- Estimativa de tamanho de Software - OK
+- Estimativa de esforço - OK
+- Estimativa de prazo - OK
 - Cronograma revisado
 - Revisão dos custos estimados
 - Considerações finais sobre a revisão de estimativas
