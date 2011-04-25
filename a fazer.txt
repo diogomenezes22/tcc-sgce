@@ -2,13 +2,13 @@
 
 - Requisitos do cliente - OK
 - Requisitos do software
-	- Fronteiras do software - OK
-	- Itens de software - OK
-	- Lista de requisitos não funcionais - OK
-	- Requisitos funcionais - OK
-		- Esquema dos atores - OK
-	- Descrição de casos de uso - OK
-		- Modelos de casos de uso - OK
+- Fronteiras do software - OK
+- Itens de software - OK
+- Lista de requisitos não funcionais - OK
+- Requisitos funcionais - OK
+- Esquema dos atores - OK
+- Descrição de casos de uso - OK
+- Modelos de casos de uso - OK
 - Especificação de caso de uso - OK
 - Requisitos de dados - OK
 - Modelo Conceitual de Dados - OK
