@@ -20,10 +20,10 @@ REVISÕES
 - Considerações preliminares - OK
 - Estimativa de tamanho de Software - OK
 - Estimativa de esforço - OK
-- Estimativa de prazo - Incompleto
-- Cronograma revisado
-- Revisão dos custos estimados
-- Considerações finais sobre a revisão de estimativas
+- Estimativa de prazo - OK
+- Cronograma revisado - OK
+- Revisão dos custos estimados - OK
+- Considerações finais sobre a revisão de estimativas - OK
 
 --------------------------------------------------------------
 Cap 2  

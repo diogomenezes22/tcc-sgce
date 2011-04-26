@@ -3,6 +3,19 @@ Figura 2 – Estrutura Analítica do Projeto.
 Figura 3 – Plano organizacional
 Figura 4 – Cronograma de atividades
 Figura 5 – Gráfico de Gantt
+Figura 6 – Mapa de atores
+Figura 7 - Diagrama Consultor
+Figura 8 – Diagrama Coordenador
+Figura 9 – Diagrama Estoquista
+Figura 10 – Caso de uso Doação
+Figura 11 – Caso de uso família
+Figura 12 – Caso de uso mantimento
+Figura 13 – Caso de uso Usuário
+Figura 14 – Caso de uso voluntário
+Figura 15 – Caso de uso Log
+Figura 16 – Moledo conceitual de dados (DER)
+Figura 17 – Novo cronograma de atividades
+Figura 18 – Novo Gráfico de Gantt
 
 ------
 
@@ -14,17 +27,29 @@ Quadro 5 – Consultas Externas
 Quadro 6 – Cálculo do FPA não ajustado
 Quadro 7 – Somatório dos níveis de Influência
 Quadro 8 – Estimativa de esforço
-Quadro 9 – Funções e responsabilidades
-Quadro 10 – Custo de software
-Quadro 11 – Custo de Hardware
-Quadro 12 – Custo de Mão de Obra
-Quadro 13 – Custo com outras despesas
+Quadro 9 – Pontos de Monitoramento e Controle
+Quadro 10 – Funções e responsabilidades
+Quadro 11 – Custo de software
+Quadro 12 – Custo de Hardware
+Quadro 13 – Custo de Mão de Obra
 Quadro 14 – Custo com outras despesas
-
-
-Quadro 15 – Tabela de Complexidade de Entrada
-Quadro 16 – Tabela de Complexidade de Saída
-Quadro 17 – Tabela de Complexidade ALI
-Quadro 18 – Tabela de Complexidade AIE
-Quadro 19 – Tabela de Complexidade de Consulta
-Quadro 20 – Tabela de pesos para FPA
+Quadro 15 – Custo total
+Quadro 16 – Histórico do Controle de Versão
+Quadro 17 – Descrição dos Atores
+Quadro 18 – Perfis dos Usuários do Sistema
+Quadro 19 – Atributos do Usuário
+Quadro 20 – Atributos de Voluntário
+Quadro 21 – Atributos da Família
+Quadro 22 – Atributos de Mantimento
+Quadro 23 – Atributos da Cesta
+Quadro 24 – Atributos de log
+Quadro 25 – Atributos de Operação
+Quadro 26 – Alterações nos pontos de função
+Quadro 27 – Novo cálculo FPA não-ajustado
+Quadro 28 – Nova estimativa de esforço
+Quadro 29 – Tabela de Complexidade de Entrada
+Quadro 30 – Tabela de Complexidade de Saída
+Quadro 31 – Tabela de Complexidade ALI
+Quadro 32 – Tabela de Complexidade AIE
+Quadro 33 – Tabela de Complexidade de Consulta
+Quadro 34 – Tabela de pesos para FPA
