@@ -47,9 +47,11 @@ Quadro 25 – Atributos de Operação
 Quadro 26 – Alterações nos pontos de função
 Quadro 27 – Novo cálculo FPA não-ajustado
 Quadro 28 – Nova estimativa de esforço
-Quadro 29 – Tabela de Complexidade de Entrada
-Quadro 30 – Tabela de Complexidade de Saída
-Quadro 31 – Tabela de Complexidade ALI
-Quadro 32 – Tabela de Complexidade AIE
-Quadro 33 – Tabela de Complexidade de Consulta
-Quadro 34 – Tabela de pesos para FPA
+Quadro 29 – Prazo do Primeiro Monitoramento e Controle
+Quadro 30 – Custo do Primeiro Monitoramento e Controle
+Quadro 31 – Tabela de Complexidade de Entrada
+Quadro 32 – Tabela de Complexidade de Saída
+Quadro 33 – Tabela de Complexidade ALI
+Quadro 34 – Tabela de Complexidade AIE
+Quadro 35 – Tabela de Complexidade de Consulta
+Quadro 36 – Tabela de pesos para FPA
