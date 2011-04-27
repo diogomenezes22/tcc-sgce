@@ -1,10 +1,10 @@
 Figura 1 – Modelo Clássico ou cascata
-Figura 2 – Estrutura Analítica do Projeto.
+Figura 2 – Estrutura Analítica do Projeto
 Figura 3 – Plano organizacional
 Figura 4 – Cronograma de atividades
 Figura 5 – Gráfico de Gantt
 Figura 6 – Mapa de atores
-Figura 7 - Diagrama Consultor
+Figura 7 – Diagrama Consultor
 Figura 8 – Diagrama Coordenador
 Figura 9 – Diagrama Estoquista
 Figura 10 – Caso de uso Doação
