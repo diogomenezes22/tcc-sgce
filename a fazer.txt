@@ -1,4 +1,4 @@
-Páginas a alterar: 7, 8, (Verificar se mudou a 10 e 11), 12, 33, 36, 136, 137, 139, 140, 141, 142, 143, 144, 145, 146, 147
+Páginas a alterar: 7, 8, 12, 33, 36, 134, 136, 137, 139, 140, 141, 142, 143, 144, 145, 146, 147
 
 ﻿CAP 3
 
@@ -26,6 +26,7 @@ REVISÕES
 - Cronograma revisado - OK
 - Revisão dos custos estimados - OK
 - Considerações finais sobre a revisão de estimativas - OK
+- Monitoramento e Controle - OK
 
 --------------------------------------------------------------
 Cap 2  
