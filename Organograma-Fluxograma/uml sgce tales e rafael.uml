@@ -17264,7 +17264,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="SEhBCzKBrk+DDG8kBYEjVwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="tYG/JoJC1kacoZzeZi0IEQAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="SrIuVJCk+U+ki2glpZN0ZQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -18118,7 +18118,7 @@
 <XPD:REF name="Context">gcLYbMItpUqKMh2It3miAwAA</XPD:REF>
 <XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="EEn5qmYq9UWzRsdUJJ311gAA">
-<XPD:ATTR name="Name" type="string">Alterar Frequencia Usuario</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Alterar Frequencia Familia</XPD:ATTR>
 <XPD:REF name="DiagramOwner">Ha9FBoqXwUW6wsj5DpQKlwAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLSequenceDiagramView" guid="JOsEQpvlI0OndhbVOsbKwwAA">
 <XPD:REF name="Diagram">EEn5qmYq9UWzRsdUJJ311gAA</XPD:REF>
@@ -18134,7 +18134,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="oMtsGIJH6UCT0Zgl8tT7swAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="OiDRXpm2D0SE0z75we9w+AAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="VgWy4KxN0UWbM3O/lnxhGAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -19004,7 +19004,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="/+hmH050oUakMQcABJNlDAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="57jpJH6dtEu8Yf/ZdB1qrAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="8NhPz0k7fEmml4gEaQKZJAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -21045,7 +21045,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="p2V7l3AkaUGpPY59tCNV3gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="74vRuDDfskClZtzlYD7bUwAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="cLb2gz239Eaq7V9xiPwo9gAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -22835,7 +22835,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="VcD6uRLL7E2sxxmR0e6oZAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="AWkp7hot4U+AZEhuexm+/gAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="GT0uHd2o2E2fT5i3jkZaNQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -23705,7 +23705,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Wwgx2zJa3kqywT9j9bUq3gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="WqrOy92FEUmwk/kZ23iIDwAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="MjR2Gp2KMUiacsbw3AVc/QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -28755,7 +28755,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Hzx3XCezLUKHKTO5//dEdQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="upVeqbGhaki+BI/H+PLpVQAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="N9wL5WGztkWd4B97CW97AwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -29777,7 +29777,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="DU5ny9UkF0CNzejvo9nsjQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="93Va300CREaEONLiRh+9kAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="wyuJsBs+LUS3y/JIFSzJtwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -30799,7 +30799,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="LMRC4us1y0yXNvrsd5+cswAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="v9jycVW9KEW01WZIcmdT6AAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="ppIuFeRqqUCP0YxJL9rWcQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -31718,7 +31718,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="vw3pZbFl5kSgfMdNf8ziVAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="CR5hCNQkNU6p/LkxrfIazAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="LOy22fLgg06xgxbBU8BJ0wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -34633,7 +34633,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Lh1kSr/b6E+r9VprGlRkxwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="LFeBID+42Ey6iwSgzaCU7wAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="pCpWlzrz5UuNM2wGc010pAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -35124,7 +35124,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="u6sV70v++UCCq5LS+lIf8AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="/0We43NBDESOiKSht27UjQAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="dg8jhY+cRU2MA9ZpZtn4BAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -36845,7 +36845,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="CYJiOVTJlUqYfHyv3wjsFAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="EMwO1fjKc0muZn257CuI7AAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="bwd9x6DkJk6syd7asaog3gAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -37487,7 +37487,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="6/OGfdHvMkOkZTP1vjCpCQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ZJemn8nfY0mTOGmmCRMbEgAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="wlaocu4eoEOs+1xWQncNsAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -38771,7 +38771,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="dXVOIdzbhEOGmPmR1oN1AgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="tk8Wg2eDQEunKGk1v1fAxAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Hcie/m4d3ESXMduwEcB49QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -39413,7 +39413,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="+2ly4AlC80+EP6Pak18WBwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="H2+XONS3wEaWqdJ3Rq+C2wAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="+xH663Ggv0KzmZVsSYeMsAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -40358,7 +40358,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Av1bRxQjw0WWUUim40HNsQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="uyFMOijwSkCpw2lJxzw2CAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="cvm0FYfBwU2nuzkFUBtEPAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -41000,7 +41000,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="IqQQS4cAgUiWrHi/QuszvwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="gfj8S8WhuEOPoPU7aRObvAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="YBnHGD0B8EimPZT+mOugDgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -42284,7 +42284,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="JECOhDDswU6nyUHPMJD1CwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="CUYteqYfMEeWYIJn5Q9//AAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="vHE34Yda/EyyQilQTjjYegAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -42926,7 +42926,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="3wnKg7ckrUmNn0y3r1hICwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="57b1y7WdtEWorYmvWy8sAAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="vLa6qE8WfkC+O8gpW6VvkwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -43568,7 +43568,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="+6y7wGn8ukKuGW3VpRIDvgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="APKv+i49L0GvRr0ph7PtaAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="zOzHwASwL02Gu3sqbcahjwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -44185,7 +44185,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="W8jp3B1wvEqR6/sbwAi3OQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="vMcSg48Klkmj+DCitzQ6uAAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="sRkjhphVF06bBH2Cl10K2gAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -44802,7 +44802,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Hb8p2AGUlUuIXyfQVCvOvQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ZZJu88Rwl0K/LMm7Yk4eDgAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="IjHK3fQw9U+UwftqjsP6DQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -45521,7 +45521,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="AB/pVfMCo0eU9yB+fFuchQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="XkO8n6kp5UeGa0Nqop56mwAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="fTiwqHKzmk2eoxzeJB49yQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -46189,7 +46189,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="U6vs9ugo/EGyZN55l75agQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="v/iPMTLIskyxHcaJxr3GvQAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="4EA7PemfxUGpb5ntdJyqWgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -46806,7 +46806,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="OBBkWOzU70e8E/3MEdLUVQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="vsa0CPb90kaajoRWYcxyHQAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="ZiquSymGik6VvHqAyYvKTwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -47474,7 +47474,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="U0rLasYyvkKFcSI4s6ogpgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="f7tzE0uHlk2R0P9gBfbY9QAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Consultor</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Usuário</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="A3vBGfrJiEW/F/w6nsHXfgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
