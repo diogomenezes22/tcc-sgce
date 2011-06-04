@@ -1,12 +1,14 @@
+**4 Figuras na páginas 144 devem ser descartadas. Remover páginas 144 da Lista de figuras
+
 Figura 1 – Modelo Clássico ou cascata
 Figura 2 – Estrutura Analítica do Projeto
 Figura 3 – Plano organizacional
 Figura 4 – Cronograma de atividades
 Figura 5 – Gráfico de Gantt
 Figura 6 – Mapa de atores
-Figura 7 – Diagrama Consultor
-Figura 8 – Diagrama Coordenador
-Figura 9 – Diagrama Estoquista
+Figura 7 – Diagrama Usuário
+Figura 8 – Diagrama Usuário (Perfil Coordenador)
+Figura 9 – Diagrama Usuário (Perfil Gestor)
 Figura 10 – Caso de uso Doação
 Figura 11 – Caso de uso família
 Figura 12 – Caso de uso mantimento
@@ -16,6 +18,48 @@ Figura 15 – Caso de uso Log
 Figura 16 – Moledo conceitual de dados (DER)
 Figura 17 – Novo cronograma de atividades
 Figura 18 – Novo Gráfico de Gantt
+Figura 19 – Diagrama de Classe
+Figura 20 – Diagrama de Sequencia: Cadastrar Usuário
+Figura 21 – Diagrama de Sequencia: Alterar Usuário
+Figura 22 – Diagrama de Sequencia: Inativar Usuário
+Figura 23 – Diagrama de Sequencia: Excluir Usuário
+Figura 24 – Diagrama de Sequencia: Consultar Usuário
+Figura 25 – Diagrama de Sequencia: Incluir Mantimento
+Figura 26 – Diagrama de Sequencia: Alterar Mantimento
+Figura 27 – Diagrama de Sequencia: Excluir Mantimento
+Figura 28 – Diagrama de Sequencia: Consultar Estoque
+Figura 29 – Diagrama de Sequencia: Consultar Entrada de Mantimento
+Figura 30 – Diagrama de Sequencia: Consultar Saída de Cesta
+Figura 31 – Diagrama de Sequencia: Consultar Vencimento do Mantimento
+Figura 32 – Diagrama de Sequencia: Relatório de Vencimento de Mantimento
+Figura 33 – Diagrama de Sequencia: Relatório de Cestas Disponíveis
+Figura 34 – Diagrama de Sequencia: Relatório de Itens Pendentes na Cesta
+Figura 35 – Diagrama de Sequencia: Cadastrar Voluntário
+Figura 36 – Diagrama de Sequencia: Alterar Voluntário
+Figura 37 – Diagrama de Sequencia: Inativar Voluntário
+Figura 38 – Diagrama de Sequencia: Excluir Voluntário
+Figura 39 – Diagrama de Sequencia: Consultar Voluntário
+Figura 40 – Diagrama de Sequencia: Relatório de Voluntário
+Figura 41 – Diagrama de Sequencia: Cadastrar Família
+Figura 42 – Diagrama de Sequencia: Cadastrar Frequência de Família
+Figura 43 – Diagrama de Sequencia: Alterar Família
+Figura 44 – Diagrama de Sequencia: Alterar Frequência Família
+Figura 45 – Diagrama de Sequencia: Inativar Família
+Figura 46 – Diagrama de Sequencia: Excluir Família
+Figura 47 – Diagrama de Sequencia: Consultar Família
+Figura 48 – Diagrama de Sequencia: Consultar Situação Família
+Figura 49 – Diagrama de Sequencia: Consultar Frequência Família
+Figura 50 – Diagrama de Sequencia: Relatório Vencimento Matrícula
+Figura 51 – Diagrama de Sequencia: Relatório Família Apta
+Figura 52 – Diagrama de Sequencia: Efetuar Login
+Figura 53 – Diagrama de Sequencia: Recuperar Senha
+Figura 54 – Diagrama de Sequencia: Armazenar Log
+Figura 55 – Diagrama de Sequencia: Consultar Log
+Figura 56 – Diagrama de Sequencia: Cadastrar Doação
+Figura 57 – Diagrama de Sequencia: Alterar Doação
+Figura 58 – Diagrama de Sequencia: Consultar Doação
+Figura 59 – Diagrama de Sequencia: Relatório Doação Feita
+Figura 60 – DTR
 
 ------
 
@@ -47,11 +91,19 @@ Quadro 25 – Atributos de Operação
 Quadro 26 – Alterações nos pontos de função
 Quadro 27 – Novo cálculo FPA não-ajustado
 Quadro 28 – Nova estimativa de esforço
-Quadro 29 – Prazo do Primeiro Monitoramento e Controle
-Quadro 30 – Custo do Primeiro Monitoramento e Controle
-Quadro 31 – Tabela de Complexidade de Entrada
-Quadro 32 – Tabela de Complexidade de Saída
-Quadro 33 – Tabela de Complexidade ALI
-Quadro 34 – Tabela de Complexidade AIE
-Quadro 35 – Tabela de Complexidade de Consulta
-Quadro 36 – Tabela de pesos para FPA
+Quadro 29 – Modelo de Classe UML
+Quadro 30 – Simbologia de explicação do diagrama de sequencia
+Quadro 31 – Complemento tabela Família do DTR
+Quadro 32 – Prazo do Primeiro Monitoramento e Controle
+Quadro 33 – Custo do Primeiro Monitoramento e Controle
+Quadro 34 – Prazo do Segundo Monitoramento e Controle
+Quadro 35 – Custo do Segundo Monitoramento e Controle
+
+
+---
+Quadro 36 – Tabela de Complexidade de Entrada
+Quadro 37 – Tabela de Complexidade de Saída
+Quadro 38 – Tabela de Complexidade ALI
+Quadro 39 – Tabela de Complexidade AIE
+Quadro 40 – Tabela de Complexidade de Consulta
+Quadro 41 – Tabela de pesos para FPA
