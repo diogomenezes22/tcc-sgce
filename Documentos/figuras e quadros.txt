@@ -87,23 +87,22 @@ Quadro 21 – Atributos da Família
 Quadro 22 – Atributos de Mantimento
 Quadro 23 – Atributos da Cesta
 Quadro 24 – Atributos de log
-Quadro 25 – Atributos de Operação
-Quadro 26 – Alterações nos pontos de função
-Quadro 27 – Novo cálculo FPA não-ajustado
-Quadro 28 – Nova estimativa de esforço
-Quadro 29 – Modelo de Classe UML
-Quadro 30 – Simbologia de explicação do diagrama de sequencia
-Quadro 31 – Complemento tabela Família do DTR
-Quadro 32 – Prazo do Primeiro Monitoramento e Controle
-Quadro 33 – Custo do Primeiro Monitoramento e Controle
-Quadro 34 – Prazo do Segundo Monitoramento e Controle
-Quadro 35 – Custo do Segundo Monitoramento e Controle
+Quadro 25 – Alterações nos pontos de função
+Quadro 26 – Novo cálculo FPA não-ajustado
+Quadro 27 – Nova estimativa de esforço
+Quadro 28 – Modelo de Classe UML
+Quadro 29 – Simbologia de explicação do diagrama de sequencia
+Quadro 30 – Complemento tabela Família do DTR
+Quadro 31 – Prazo do Primeiro Monitoramento e Controle
+Quadro 32 – Custo do Primeiro Monitoramento e Controle
+Quadro 33 – Prazo do Segundo Monitoramento e Controle
+Quadro 34 – Custo do Segundo Monitoramento e Controle
 
 
 ---
-Quadro 36 – Tabela de Complexidade de Entrada
-Quadro 37 – Tabela de Complexidade de Saída
-Quadro 38 – Tabela de Complexidade ALI
-Quadro 39 – Tabela de Complexidade AIE
-Quadro 40 – Tabela de Complexidade de Consulta
-Quadro 41 – Tabela de pesos para FPA
+Quadro 35 – Tabela de Complexidade de Entrada
+Quadro 36 – Tabela de Complexidade de Saída
+Quadro 37 – Tabela de Complexidade ALI
+Quadro 38 – Tabela de Complexidade AIE
+Quadro 39 – Tabela de Complexidade de Consulta
+Quadro 40 – Tabela de pesos para FPA
