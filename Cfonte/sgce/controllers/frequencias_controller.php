@@ -66,7 +66,7 @@ class FrequenciasController extends AppController {
 		$escreverTitBt 					= false; //Desativa escrito por extenso nos botões
 
 		$campos['Frequencias']['status']['input']['label']['text'] 	= 'Status';
-		$campos['Frequencias']['status']['input']['options']		= array('1'=>'Presente', '0'=>'Ausente'); //Mudar para char no banco, pois terá mais de duas opções
+		$campos['Frequencias']['status']['input']['options']		= array('P'=>'Presença', 'F'=>'Falta', 'FJ'=>'Falta Justificada', 'PF'=>'Veio Familiar no lugar', 'PA'=>'Chegou Atrasada', 'PC'=>'Perdeu o cartão');
 		$campos['Frequencias']['status']['th']['width']				= '100px';
 
 		$campos['Frequencias']['data']['input']['label']['text']	= 'Data';
