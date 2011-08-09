@@ -65,7 +65,7 @@ class FrequenciasController extends AppController {
 		$camposPesquisa['Familia.nome'] 	= 'Nome';
 		$escreverTitBt 					= false; //Desativa escrito por extenso nos botões
 
-		$campos['Frequencias']['status']['input']['label']['text'] 	= 'Status';
+		$campos['Frequencias']['status']['input']['label']['text'] 	= 'Situação';
 		$campos['Frequencias']['status']['input']['options']		= array('P'=>'Presença', 'F'=>'Falta', 'FJ'=>'Falta Justificada', 'PF'=>'Veio Familiar no lugar', 'PA'=>'Chegou Atrasada', 'PC'=>'Perdeu o cartão');
 		$campos['Frequencias']['status']['th']['width']				= '100px';
 

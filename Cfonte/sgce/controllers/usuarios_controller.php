@@ -72,14 +72,11 @@ class UsuariosController extends AppController {
 		$camposPesquisa['Usuario.nome'] 	= 'Nome';
 		$escreverTitBt 					= false; //Desativa escrito por extenso nos botões
 
-		$campos['Usuario']['status']['input']['label']['text'] 	= 'Status';
+		$campos['Usuario']['status']['input']['label']['text'] 	= 'Situação';
 		$campos['Usuario']['status']['input']['options']		= array('1'=>'Ativo', '0'=>'Inativo');
 		$campos['Usuario']['status']['th']['width']				= '100px';
 
 		$campos['Usuario']['voluntario']['input']['label']['text']	= 'Voluntário?';
-		//$campos['Usuario']['voluntario']['input']['type']	 = 'checkbox';
-		//$campos['Usuario']['voluntario']['input']['multiple']	 = 'radio';
-		//$campos['Usuario']['voluntario']['input']['type']	 = 'radio';
 		$campos['Usuario']['voluntario']['input']['options']		= array('1'=>'Sim', '0'=>'Não');
 		$campos['Usuario']['voluntario']['th']['width']				= '100px';
 
