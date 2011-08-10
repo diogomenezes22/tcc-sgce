@@ -35,6 +35,20 @@ class Usuario extends AppModel {
 	public $order		 	= 'Usuario.nome';
 
 	/**
+	* Método a ser executado antes da validação
+	* 
+	* @return boolean
+	*/
+	public function beforeValidate($options=array())
+	{
+		// removendo a máscara de alguns ampos
+		if (isset($this->data['Usuario']['cpf'])) $this->data['Usuario']['cpf'] = ereg_replace('[./-]','',$this->data['Usuario']['cpf']);
+		if (isset($this->data['Usuario']['cep'])) $this->data['Usuario']['cep'] = ereg_replace('[./-]','',$this->data['Usuario']['cep']);
+		if (isset($this->data['Usuario']['telefone'])) $this->data['Usuario']['telefone'] = ereg_replace('([./-])','',$this->data['Usuario']['telefone']);
+		if (isset($this->data['Usuario']['celular'])) $this->data['Usuario']['celular'] = ereg_replace('([./-])','',$this->data['Usuario']['celular']);
+	}
+
+	/**
 	 * Regras de validação para cada campo do model
 	 * 
 	 * @var		array
