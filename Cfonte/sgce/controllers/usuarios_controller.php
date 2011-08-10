@@ -72,79 +72,79 @@ class UsuariosController extends AppController {
 		$camposPesquisa['Usuario.nome'] 	= 'Nome';
 		$escreverTitBt 					= false; //Desativa escrito por extenso nos botões
 
-		$campos['Usuario']['status']['input']['label']['text'] 	= 'Situação';
-		$campos['Usuario']['status']['input']['options']		= array('1'=>'Ativo', '0'=>'Inativo');
-		$campos['Usuario']['status']['th']['width']				= '100px';
+		$campos['Usuario']['status']['input']['label']['text'] 				= 'Situação';
+		$campos['Usuario']['status']['input']['options']					= array('1'=>'Ativo', '0'=>'Inativo');
+		$campos['Usuario']['status']['th']['width']							= '100px';
 
-		$campos['Usuario']['voluntario']['input']['label']['text']	= 'Voluntário?';
-		$campos['Usuario']['voluntario']['input']['options']		= array('1'=>'Sim', '0'=>'Não');
-		$campos['Usuario']['voluntario']['th']['width']				= '100px';
+		$campos['Usuario']['voluntario']['input']['label']['text']			= 'Voluntário?';
+		$campos['Usuario']['voluntario']['input']['options']				= array('1'=>'Sim', '0'=>'Não');
+		$campos['Usuario']['voluntario']['th']['width']						= '100px';
 
-		$campos['Usuario']['perfil']['input']['label']['text'] 	= 'Perfil';
-		$campos['Usuario']['perfil']['input']['options']		= array('Administrador'=>'Administrador','Coordenador'=>'Coordenador','Gestor'=>'Gestor','Consultor'=>'Consultor');
-		$campos['Usuario']['perfil']['input']['type']			= 'select';
-		$campos['Usuario']['perfil']['th']['width']				= '200px';
+		$campos['Usuario']['perfil']['input']['label']['text'] 				= 'Perfil';
+		$campos['Usuario']['perfil']['input']['options']					= array('Administrador'=>'Administrador','Coordenador'=>'Coordenador','Gestor'=>'Gestor','Consultor'=>'Consultor');
+		$campos['Usuario']['perfil']['input']['type']						= 'select';
+		$campos['Usuario']['perfil']['th']['width']							= '200px';
 
 		$campos['Usuario']['prestacao_servico']['input']['label']['text'] 	= 'Tipo de Serviço';
-		$campos['Usuario']['prestacao_servico']['input']['size']			= '50';
+		$campos['Usuario']['prestacao_servico']['input']['style']			= 'width: 400px; text-align: left';
 		$campos['Usuario']['prestacao_servico']['th']['width']				= '400px';
 
-		$campos['Usuario']['nome']['input']['label']['text'] 	= 'Nome';
-		$campos['Usuario']['nome']['input']['size']				= '50';
-		$campos['Usuario']['nome']['th']['width']				= '300px';
+		$campos['Usuario']['nome']['input']['label']['text'] 				= 'Nome';
+		$campos['Usuario']['nome']['input']['style']						= 'width: 250px; text-align: left';
+		$campos['Usuario']['nome']['th']['width']							= '300px';
 
-		$campos['Usuario']['email']['input']['label']['text'] 	= 'E-mail';
-		$campos['Usuario']['email']['input']['size']			= '25';
-		$campos['Usuario']['email']['th']['width']				= '150px';
+		$campos['Usuario']['email']['input']['label']['text'] 				= 'E-mail';
+		$campos['Usuario']['email']['input']['style']						= 'width: 250px; text-align: left';
+		$campos['Usuario']['email']['th']['width']							= '150px';
 
-		$campos['Usuario']['senha']['input']['label']['text'] 	= 'Senha';
-		$campos['Usuario']['senha']['input']['size']			= '25';
-		$campos['Usuario']['senha']['input']['type']			= 'password';
-		$campos['Usuario']['senha']['th']['width']				= '150px';
+		$campos['Usuario']['senha']['input']['label']['text'] 				= 'Senha';
+		$campos['Usuario']['senha']['input']['style']						= 'width: 250px; text-align: left';
+		$campos['Usuario']['senha']['input']['type']						= 'password';
+		$campos['Usuario']['senha']['th']['width']							= '150px';
 
-		$campos['Usuario']['cpf']['input']['label']['text'] 	= 'CPF';
-		$campos['Usuario']['cpf']['input']['style']				= 'width: 90px; text-align: center;';
-		$campos['Usuario']['cpf']['mascara']					= '999.999.999-99';
+		$campos['Usuario']['cpf']['input']['label']['text'] 				= 'CPF';
+		$campos['Usuario']['cpf']['input']['style']							= 'width: 90px; text-align: center;';
+		$campos['Usuario']['cpf']['mascara']								= '999.999.999-99';
 
-		$campos['Usuario']['rg']['input']['label']['text'] 	= 'RG';
-		$campos['Usuario']['rg']['input']['size']			= '10';
-		$campos['Usuario']['rg']['th']['width']				= '100px';
+		$campos['Usuario']['rg']['input']['label']['text'] 					= 'RG';
+		$campos['Usuario']['rg']['input']['size']							= '10';
+		$campos['Usuario']['rg']['th']['width']								= '100px';
 
-		$campos['Usuario']['endereco']['input']['label']['text'] 	= 'Endereço';
-		$campos['Usuario']['endereco']['input']['size']				= '55';
-		$campos['Usuario']['endereco']['th']['width']				= '400px';
+		$campos['Usuario']['endereco']['input']['label']['text'] 			= 'Endereço';
+		$campos['Usuario']['endereco']['input']['style']					= 'width: 340px; text-align: left';
+		$campos['Usuario']['endereco']['th']['width']						= '350px';
 
-		$campos['Usuario']['numero']['input']['label']['text'] 	= 'Número';
-		$campos['Usuario']['numero']['input']['size']			= '3';
-		$campos['Usuario']['numero']['th']['width']				= '50px';
+		$campos['Usuario']['numero']['input']['label']['text'] 				= 'Número';
+		$campos['Usuario']['numero']['input']['style']						= 'width: 40px; text-align: left';
+		$campos['Usuario']['numero']['th']['width']							= '50px';
 
-		$campos['Usuario']['complemento']['input']['label']['text'] 	= 'Complemento';
-		$campos['Usuario']['complemento']['input']['size']				= '3';
-		$campos['Usuario']['complemento']['th']['width']				= '50px';
+		$campos['Usuario']['complemento']['input']['label']['text']			= 'Complemento';
+		$campos['Usuario']['complemento']['input']['style']					= 'width: 40px; text-align: left';
+		$campos['Usuario']['complemento']['th']['width']					= '50px';
 
-		$campos['Usuario']['bairro']['input']['label']['text'] 	= 'Bairro';
-		$campos['Usuario']['bairro']['input']['size']			= '25';
-		$campos['Usuario']['bairro']['th']['width']				= '150px';
+		$campos['Usuario']['bairro']['input']['label']['text'] 				= 'Bairro';
+		$campos['Usuario']['bairro']['input']['style']						= 'width: 200px; text-align: left';
+		$campos['Usuario']['bairro']['th']['width']							= '150px';
 
-		$campos['Usuario']['cidade']['input']['label']['text'] 	= 'Cidade';
-		$campos['Usuario']['cidade']['input']['size']			= '25';
-		$campos['Usuario']['cidade']['th']['width']				= '150px';
+		$campos['Usuario']['cidade']['input']['label']['text'] 				= 'Cidade';
+		$campos['Usuario']['cidade']['input']['style']						= 'width: 200px; text-align: left';
+		$campos['Usuario']['cidade']['th']['width']							= '150px';
 
-		$campos['Usuario']['uf']['input']['label']['text'] 	= 'UF';
-		$campos['Usuario']['uf']['input']['size']			= '1';
-		$campos['Usuario']['uf']['th']['width']				= '50px';
+		$campos['Usuario']['uf']['input']['label']['text'] 					= 'UF';
+		$campos['Usuario']['uf']['input']['style']							= 'width: 23px; text-align: left';
+		$campos['Usuario']['uf']['th']['width']								= '50px';
 
-		$campos['Usuario']['cep']['input']['label']['text']			= 'CEP';
-		$campos['Usuario']['cep']['input']['style']					= 'width: 90px; text-align: center;';
-		$campos['Usuario']['cep']['mascara']						= '99.999-999';
+		$campos['Usuario']['cep']['input']['label']['text']					= 'CEP';
+		$campos['Usuario']['cep']['input']['style']							= 'width: 90px; text-align: center;';
+		$campos['Usuario']['cep']['mascara']								= '99.999-999';
 
-		$campos['Usuario']['telefone']['input']['label']['text'] 	= 'Telefone';
-		$campos['Usuario']['telefone']['input']['style']			= 'width: 90px; text-align: center;';
-		$campos['Usuario']['telefone']['mascara']					= '(99) 9999-9999';
+		$campos['Usuario']['telefone']['input']['label']['text'] 			= 'Telefone';
+		$campos['Usuario']['telefone']['input']['style']					= 'width: 90px; text-align: center;';
+		$campos['Usuario']['telefone']['mascara']							= '(99) 9999-9999';
 
-		$campos['Usuario']['celular']['input']['label']['text'] 	= 'Celular';
-		$campos['Usuario']['celular']['input']['style']				= 'width: 90px; text-align: center;';
-		$campos['Usuario']['celular']['mascara']					= '(99) 9999-9999';
+		$campos['Usuario']['celular']['input']['label']['text'] 			= 'Celular';
+		$campos['Usuario']['celular']['input']['style']						= 'width: 90px; text-align: center;';
+		$campos['Usuario']['celular']['mascara']							= '(99) 9999-9999';
 
 
 		//Desativa ordenação de campo com clique no título da lista ou do DBgrid
