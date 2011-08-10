@@ -1,0 +1,32 @@
+/* Aplica css nos seguentes campos abaixo*/
+#UsuarioStatus,
+#UsuarioVoluntario,
+#UsuarioPerfil
+{
+	width: 100px;
+	/* Define tamanho do campo */
+}
+
+
+#UsuarioPrestacaoServico,
+#UsuarioNome,
+#UsuarioEmail,
+#UsuarioSenha,
+#UsuarioCpf,
+#UsuarioRg,
+#UsuarioEndereco,
+#UsuarioNumero,
+#UsuarioComplemento,
+#UsuarioBairro,
+#UsuarioCidade,
+#UsuarioUf,
+#UsuarioCep,
+#UsuarioTelefone,
+#UsuarioCelular
+ input {
+background:#fff; 
+/* a cor do fundo dos campos */
+
+border:1px solid #000;
+/* uma borda de 1px lisa e na cor preta para o campo */
+}
