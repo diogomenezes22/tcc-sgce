@@ -1,0 +1,11 @@
+/* Aplica css nos seguentes campos abaixo */
+
+#MantimentoNome,
+#MantimentoTipo
+{
+	background:#fff; 
+	/* a cor do fundo dos campos */
+
+	border:1px solid #000;
+	/* uma borda de 1px lisa e na cor preta para o campo */
+}

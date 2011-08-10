@@ -72,23 +72,23 @@ class MantimentosController extends AppController {
 		$camposPesquisa['Mantimento.nome'] 	= 'Nome';
 		$escreverTitBt 					= false; //Desativa escrito por extenso nos botões
 
-		$campos['Mantimento']['nome']['input']['label']['text'] 	= 'Nome';
-		$campos['Mantimento']['nome']['input']['size']				= '50';
-		$campos['Mantimento']['nome']['th']['width']				= '300px';
+		$campos['Mantimento']['nome']['input']['label']['text'] 			= 'Nome';
+		$campos['Mantimento']['nome']['input']['style']						= 'width: 250px; text-align: left;';
+		$campos['Mantimento']['nome']['th']['width']						= '300px';
 
-		$campos['Mantimento']['tipo']['input']['label']['text'] 	= 'Tipo';
-		$campos['Mantimento']['tipo']['input']['size']				= '20';
-		$campos['Mantimento']['tipo']['th']['width']				= '130px';
+		$campos['Mantimento']['tipo']['input']['label']['text'] 			= 'Tipo';
+		$campos['Mantimento']['tipo']['input']['style']						= 'width: 150px; text-align: left;';
+		$campos['Mantimento']['tipo']['th']['width']						= '130px';
 
-		$campos['Mantimento']['data_entrada']['input']['label']['text']	= 'Data de entrada';
-		$campos['Mantimento']['data_entrada']['input']['label']['style']= 'color: green;';
-		$campos['Mantimento']['data_entrada']['mascara'] 				= '99/99';
-		$campos['Mantimento']['data_entrada']['input']['style']			= 'width: 46px; text-align: center; ';
+		$campos['Mantimento']['data_entrada']['input']['label']['text']		= 'Data de entrada';
+		$campos['Mantimento']['data_entrada']['input']['label']['style']	= 'color: green;';
+		$campos['Mantimento']['data_entrada']['mascara'] 					= '99/99';
+		$campos['Mantimento']['data_entrada']['input']['style']				= 'width: 46px; text-align: center;';
 
-		$campos['Mantimento']['validade']['input']['label']['text']	= 'Validade';
-		$campos['Mantimento']['validade']['input']['label']['style']= 'color: red;';
-		$campos['Mantimento']['validade']['mascara'] 				= '99/99';
-		$campos['Mantimento']['validade']['input']['style']			= 'width: 46px; text-align: center; ';
+		$campos['Mantimento']['validade']['input']['label']['text']			= 'Validade';
+		$campos['Mantimento']['validade']['input']['label']['style']		= 'color: red;';
+		$campos['Mantimento']['validade']['mascara'] 						= '99/99';
+		$campos['Mantimento']['validade']['input']['style']					= 'width: 46px; text-align: center;';
 
 
 		if ($this->action=='imprimir') //Esse "imprimir" é um método do controlador(classe)
