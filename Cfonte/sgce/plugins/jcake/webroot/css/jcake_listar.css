@@ -1,0 +1,152 @@
+.linhaDentro
+{
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+#listar
+{
+	
+}
+
+.lista
+{
+	margin: 10px auto;
+	width: 80%;
+	font-family: verdana;
+	font-size: 11px;
+}
+
+#listar #topo
+{
+	background-color: #ACC4E6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 10px;
+	margin: 0px 0px 5px 0px;
+	height: 22px;
+}
+
+#listar #topo #botoes
+{
+	float: left;
+}
+
+#listar #topo #paginas
+{
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+#listar #topo #paginas span
+{
+	margin-left: 5px;
+}
+
+#listar #topo #paginas span,
+#listar #topo #paginas a
+{
+	background-color: #ddd;
+	display: block;
+	float: left;
+	line-height: 19px;
+	height: 20px;
+	min-width: 30px;
+	text-align: center;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#listar #topo #paginas a:hover
+{
+	background-color: #fff;
+	color: green;
+}
+
+#listar #topo #irPag
+{
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+#listar #topo #irPag #edIrPag
+{
+	width: 50px;
+	height: 14px;
+	text-align: center;
+}
+#listar #topo #irPag #btIrPag
+{
+	height: 24px;
+}
+
+#listar #topo #irPag .totalPag
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+}
+
+.btEdicao
+{
+	width: 99px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #000;
+	margin: 0px 5px 0px 5px;
+}
+.btEdicao:hover
+{
+	color: green;
+	cursor: pointer;
+}
+
+.lista #btNovo
+{
+	background: #cacaca url('../img/bt_novo.png') no-repeat 5px;
+}
+
+.lista table
+{
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.lista table th
+{
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.lista th a.asc:after {
+	content: ' ⇣';
+	color: red;
+}
+.lista th a.desc:after {
+	content: ' ⇡';
+	color: red;
+}
+
+.lista th a
+{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #fff;
+}
+
+.lista th a:hover
+{
+	background-color: #acc4e6;
+}
+
+.lista table tr td
+{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+.tdFer
+{
+	padding: 0px 5px 0px 5px;
+}

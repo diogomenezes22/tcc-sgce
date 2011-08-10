@@ -1,0 +1,126 @@
+.edicaoCampo
+{
+	float: left;
+}
+
+.labelCampo
+{
+	display: block;
+	text-align: right;
+	float: left;
+	min-width: 150px;
+	margin: 0px 5px 0px 0px;
+}
+
+.error-message
+{
+	margin-left: 155px;
+	color: red;
+}
+
+br
+{
+	clear: both;
+}
+
+#imprimir,
+#editar
+{
+	margin: 10px auto;
+	width: 80%;
+	font-family: verdana;
+}
+
+#editar #topo
+{
+	background-color: #ACC4E6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 10px;
+	height: 22px;
+}
+
+#editar #msgDel,
+#editar #errosForm
+{
+	display: none;
+	background-color: red;
+	font-weight: bold;
+	color: #fff;
+	padding: 9px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#editar #topo #botoes
+{
+	float: left;
+}
+
+#editar #campos
+{
+	margin: 10px auto;
+	border: 1px solid #bbb;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 5px 0px 5px 0px;
+}
+
+#editar #btSalvar
+{
+	background: #cacaca url('../img/bt_salvar.png') no-repeat 5px;
+}
+
+#editar #btExcluir
+{
+	background: #cacaca url('../img/bt_excluir.png') no-repeat 5px;
+}
+
+#editar #btNovo
+{
+	background: #cacaca url('../img/bt_novo.png') no-repeat 5px;
+}
+
+#editar #btAtualizar
+{
+	background: #cacaca url('../img/bt_atualizar.png') no-repeat 5px;
+}
+
+#editar #btImprimir
+{
+	background: #cacaca url('../img/bt_imprimir.png') no-repeat 5px;
+}
+
+#editar #btListar
+{
+	background: #cacaca url('../img/bt_listar.png') no-repeat 5px;
+}
+
+#editar .linhaHr
+{
+	width: 96%;
+	color: #ccc;
+}
+
+.ti_leitura
+{
+	font-weight: bold;
+	display: block;
+	float: left;
+	min-width: 150px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.in_leitura
+{
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.checkbox
+{
+	float: left;
+	margin-right: 5px;
+}

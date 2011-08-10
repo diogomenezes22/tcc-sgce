@@ -1,0 +1,185 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#logocake
+{
+	position: absolute;
+	top: 9px;
+	right: 5px;
+}
+
+#cabecalho
+{
+	height: 50px;
+	border-bottom: 3px solid #414E5F;
+	background: url('../img/bg.gif') repeat;
+	color: #fff;
+}
+
+#cabecalho a
+{
+	color: #fff;
+}
+
+#cabecalho a:hover
+{
+	color: #FCFC00;
+}
+
+a
+{
+	text-decoration: none;
+	color: #333;
+}
+
+button:hover,
+a:hover
+{
+	color: red;
+}
+
+.message
+{
+	text-align: center;
+	float: right;
+	width: 500px;
+	margin-right: 150px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 6px;
+	/*filter: Alpha(Opacity=40); 
+	-moz-opacity:0.4; 
+	opacity: 0.4;*/
+}
+
+#sigla
+{
+	padding: 5px;
+}
+
+#sigla a
+{
+	font-weight: bold;
+	color: #fff;
+}
+
+#sqlDump table
+{
+	border: 1px solid #ccc;
+	font-size: 10px;
+}
+
+#sqlDump table th
+{
+	background-color: #5959F7;
+}
+
+.tdSqlDump,
+.tdSqlDump1
+{
+	border-bottom: 1px dotted #000;
+}
+
+.tdSqlDump1
+{
+	background-color: #ccc;
+}
+
+/* pesquisa */
+#rePesquisa
+{
+	position: absolute;
+	z-index: 999;
+	background-color: #cad8ec;
+	min-width: 300px;
+	padding: 0px 0px 0px 3px;
+	line-height: 24px;
+	border: 2px solid #8994a6;
+	display: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#pesquisa
+{
+	float: right;
+	font-size: 10px;
+}
+
+#pesquisa select
+{
+	min-width: 100px;
+}
+
+#pesquisa #rePesquisa ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#pesquisa #rePesquisa ul li
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#pesquisa #rePesquisa ul li:hover
+{
+	color: red;
+	cursor: pointer;
+	background-color: #f9f9d8;
+}
+
+.btEdicaoP,
+.btEdicao
+{
+	height: 24px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #000;
+	margin: 0px 5px 0px 5px;
+}
+.btEdicaoP:hover,
+.btEdicao:hover
+{
+	color: green;
+	cursor: pointer;
+}
+
+.btEdicaoP
+{
+	width: 30px;
+}
+
+.btEdicao
+{
+	width: 104px;
+}
+
+#menu
+{
+	padding: 2px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+#ferramentas
+{
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+
+/*#ferramentas #ferFer
+{
+	padding: 9px;
+}*/
+
+#ferramentas img
+{
+	padding: 9px;
+}
