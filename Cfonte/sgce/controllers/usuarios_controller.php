@@ -103,7 +103,7 @@ class UsuariosController extends AppController {
 		$campos['Usuario']['senha']['th']['width']							= '150px';
 
 		$campos['Usuario']['cpf']['input']['label']['text'] 				= 'CPF';
-		$campos['Usuario']['cpf']['input']['style']							= 'width: 90px; text-align: center;';
+		$campos['Usuario']['cpf']['input']['style']							= 'width: 95px; text-align: center;';
 		$campos['Usuario']['cpf']['mascara']								= '999.999.999-99';
 
 		$campos['Usuario']['rg']['input']['label']['text'] 					= 'RG';
@@ -131,19 +131,19 @@ class UsuariosController extends AppController {
 		$campos['Usuario']['cidade']['th']['width']							= '150px';
 
 		$campos['Usuario']['uf']['input']['label']['text'] 					= 'UF';
-		$campos['Usuario']['uf']['input']['style']							= 'width: 23px; text-align: left';
+		$campos['Usuario']['uf']['input']['style']							= 'width: 25px; text-align: center';
 		$campos['Usuario']['uf']['th']['width']								= '50px';
 
 		$campos['Usuario']['cep']['input']['label']['text']					= 'CEP';
-		$campos['Usuario']['cep']['input']['style']							= 'width: 90px; text-align: center;';
+		$campos['Usuario']['cep']['input']['style']							= 'width: 95px; text-align: center;';
 		$campos['Usuario']['cep']['mascara']								= '99.999-999';
 
 		$campos['Usuario']['telefone']['input']['label']['text'] 			= 'Telefone';
-		$campos['Usuario']['telefone']['input']['style']					= 'width: 90px; text-align: center;';
+		$campos['Usuario']['telefone']['input']['style']					= 'width: 95px; text-align: center;';
 		$campos['Usuario']['telefone']['mascara']							= '(99) 9999-9999';
 
 		$campos['Usuario']['celular']['input']['label']['text'] 			= 'Celular';
-		$campos['Usuario']['celular']['input']['style']						= 'width: 90px; text-align: center;';
+		$campos['Usuario']['celular']['input']['style']						= 'width: 95px; text-align: center;';
 		$campos['Usuario']['celular']['mascara']							= '(99) 9999-9999';
 
 
