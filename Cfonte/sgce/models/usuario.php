@@ -42,11 +42,25 @@ class Usuario extends AppModel {
 	public function beforeValidate($options=array())
 	{
 		// removendo a máscara de alguns ampos
-		if (isset($this->data['Usuario']['cpf'])) $this->data['Usuario']['cpf'] = ereg_replace('[./-]','',$this->data['Usuario']['cpf']);
-		if (isset($this->data['Usuario']['cep'])) $this->data['Usuario']['cep'] = ereg_replace('[./-]','',$this->data['Usuario']['cep']);
-//pr($this->data); //debug
-		if (isset($this->data['Usuario']['telefone'])) $this->data['Usuario']['telefone'] = ereg_replace('[./-]','',$this->data['Usuario']['telefone']);
-		if (isset($this->data['Usuario']['celular'])) $this->data['Usuario']['celular'] = ereg_replace('[./-]','',$this->data['Usuario']['celular']);
+		//if (isset($this->data['Usuario']['cpf'])) $this->data['Usuario']['cpf'] = ereg_replace('[./-]','',$this->data['Usuario']['cpf']);
+		//if (isset($this->data['Usuario']['cep'])) $this->data['Usuario']['cep'] = ereg_replace('[./-]','',$this->data['Usuario']['cep']);
+		
+		// removendo a máscara em alguns campos			
+		$campos = array('telefone','celular','cpf','cep');
+		foreach($campos as $_campo)
+		{
+			if (isset($this->data['Usuario'][$_campo]))
+			{
+				$this->data['Usuario'][$_campo]	= str_replace('-','',$this->data['Usuario'][$_campo]);
+				$this->data['Usuario'][$_campo]	= str_replace(' ','',$this->data['Usuario'][$_campo]);
+				$this->data['Usuario'][$_campo]	= str_replace('.','',$this->data['Usuario'][$_campo]);
+				$this->data['Usuario'][$_campo]	= str_replace('/','',$this->data['Usuario'][$_campo]);
+				$this->data['Usuario'][$_campo]	= str_replace('[','',$this->data['Usuario'][$_campo]);
+				$this->data['Usuario'][$_campo]	= str_replace(']','',$this->data['Usuario'][$_campo]);
+				$this->data['Usuario'][$_campo]	= str_replace('_','',$this->data['Usuario'][$_campo]);
+			}
+		}
+
 	}
 
 	/**

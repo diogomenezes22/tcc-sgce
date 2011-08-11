@@ -43,19 +43,6 @@ class UsuariosController extends AppController {
 	public $helpers		= array('Jcake.Visao');
 
 	/**
-	 * Antes de tudo
-	 */
-	public function beforeFilter()
-	{
-// Transforma os campos especificados para caixa ALTA (mb_strtoupper)
-/*		if (isset($this->data))
-		{
-			$this->data['Usuario']['nome'] = mb_strtoupper($this->data['Usuario']['nome']);
-		}
-*/
-	}
-
-	/**
 	 * Executa código antes da renderização da view
 	 * 
 	 * @return	void
@@ -103,7 +90,7 @@ class UsuariosController extends AppController {
 		$campos['Usuario']['senha']['th']['width']							= '150px';
 
 		$campos['Usuario']['cpf']['input']['label']['text'] 				= 'CPF';
-		$campos['Usuario']['cpf']['input']['style']							= 'width: 95px; text-align: center;';
+		$campos['Usuario']['cpf']['input']['style']							= 'width: 120px; text-align: center;';
 		$campos['Usuario']['cpf']['mascara']								= '999.999.999-99';
 
 		$campos['Usuario']['rg']['input']['label']['text'] 					= 'RG';
@@ -139,11 +126,13 @@ class UsuariosController extends AppController {
 		$campos['Usuario']['cep']['mascara']								= '99.999-999';
 
 		$campos['Usuario']['telefone']['input']['label']['text'] 			= 'Telefone';
-		$campos['Usuario']['telefone']['input']['style']					= 'width: 95px; text-align: center;';
+		$campos['Usuario']['telefone']['input']['style']					= 'width: 120px; text-align: center;';
 		$campos['Usuario']['telefone']['mascara']							= '99 9999-9999';
+		$campos['Usuario']['telefone']['input']['maxlength']				= '13';
 
 		$campos['Usuario']['celular']['input']['label']['text'] 			= 'Celular';
-		$campos['Usuario']['celular']['input']['style']						= 'width: 95px; text-align: center;';
+		$campos['Usuario']['celular']['input']['style']						= 'width: 120px; text-align: center;';
+		$campos['Usuario']['celular']['input']['maxlength']					= '13';
 		$campos['Usuario']['celular']['mascara']							= '99 9999-9999';
 
 
@@ -169,6 +158,11 @@ class UsuariosController extends AppController {
 		if ($this->action=='editar' || $this->action=='novo')
 		{
 			array_unshift($onReadView,'$("#UsuarioPrestacaoServico").focus();');
+		}
+
+		if ($this->data)
+		{
+			//$this->data['Usuario']['senha'] = '';
 		}
 
 		$this->set(compact('listaCampos','edicaoCampos','campos','camposPesquisa','escreverTitBt','onReadView','listaFerramentas','botoesEdicao'));
