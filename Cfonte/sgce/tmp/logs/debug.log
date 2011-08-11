@@ -1,4 +1,0 @@
-2011-07-19 20:30:12 Notice: Notice (8): Undefined variable: radioOptions in [/opt/cake/libs/view/helpers/form.php, line 872]
-2011-08-09 23:24:20 Notice: Notice (8): session_start() [http://php.net/function.session-start]: ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in [/opt/cake/libs/cake_session.php, line 587]
-2011-08-10 00:13:52 Notice: Notice (8): Undefined index: tel_1 in [/var/www/tcc-sgce/Cfonte/sgce/models/usuario.php, line 47]
-2011-08-10 00:13:52 Notice: Notice (8): Undefined index: tel_2 in [/var/www/tcc-sgce/Cfonte/sgce/models/usuario.php, line 48]
