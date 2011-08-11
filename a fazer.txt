@@ -17,6 +17,7 @@ Páginas a alterar: 7, 8, 12, 33, 36, 134, 136, 137, 139, 140, 141, 142, 143, 14
 - Entidades e Atributos - OK
 - Melhoramentos Previstos - OK
 
+
 REVISÕES
 - Revisão de estimativas - OK
 - Considerações preliminares - OK
