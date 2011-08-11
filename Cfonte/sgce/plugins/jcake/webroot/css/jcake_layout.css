@@ -2,6 +2,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
+	font-family: verdana;
 }
 
 #logocake
@@ -182,4 +183,16 @@ a:hover
 #ferramentas img
 {
 	padding: 9px;
+}
+
+#menuLogin
+{
+	font-size: 14px;
+	float: right;
+	margin: -16px 5px 0px 0px;
+}
+
+#menuLogin a:hover
+{
+	color: red;
 }

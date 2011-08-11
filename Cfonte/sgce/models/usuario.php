@@ -44,7 +44,14 @@ class Usuario extends AppModel {
 		// removendo a máscara de alguns ampos
 		//if (isset($this->data['Usuario']['cpf'])) $this->data['Usuario']['cpf'] = ereg_replace('[./-]','',$this->data['Usuario']['cpf']);
 		//if (isset($this->data['Usuario']['cep'])) $this->data['Usuario']['cep'] = ereg_replace('[./-]','',$this->data['Usuario']['cep']);
-		
+
+		// se não digitou a senha e não é inclusão, pode passar.
+		if (empty($this->data['Usuario']['senha']) && isset($this->data['Usuario']['id']))
+		{
+			unset($this->data['Usuario']['senha']);
+			$this->validate['senha'][1] = null;
+		}
+
 		// removendo a máscara em alguns campos			
 		$campos = array('telefone','celular','cpf','cep');
 		foreach($campos as $_campo)

@@ -8,7 +8,6 @@
 ?>
 <?php if (!isset($listaCampos)) die('É preciso definir os campos da lista. Crie a varíavel <strong>$listaCampos</strong> no evento <strong>beforeRender</strong> do seu controlador <strong>'.$this->name.'</strong>.'); ?>
 <?php $this->Visao->escreverTitBt = isset($escreverTitBt) ? $escreverTitBt : $this->Visao->escreverTitBt; ?>
-<?php $this->Html->css('/jcake/css/jcake_listar.css', null, array('inline' => false)); ?>
 <?php if (isset($onReadView)) foreach($onReadView as $_codigo) $this->Visao->setOnReadView($_codigo); ?>
 <?php
 	if (!isset($listaFerramentas['editar']))
@@ -57,6 +56,14 @@ if (isset($camposPesquisa))
 ?>
 
 </div>
+
+<?php if (isset($listaMenu)) : ?>
+<div id='listaMenu'>
+	<ul>
+	<?php foreach($listaMenu as $_menu => $_con) echo '<li>'.$this->Html->link($_menu,array('controller'=>$_con,'action'=>'listar')).'</li>'; ?>
+	</ul>
+</div>
+<?php endif ?>
 
 <table cellspacing='0px' padding='0px' border='0px'>
 
@@ -110,8 +117,11 @@ if (isset($camposPesquisa))
 		foreach($listaCampos as $_campo)
 		{
 			$arrCmp = explode('.',$_campo);
-			$mascara= isset($campos[$arrCmp[0]][$arrCmp[1]]['mascara']) ? isset($campos[$arrCmp[0]][$arrCmp[1]]['mascara']) : '';
-			$valor = $this->Visao->getMascara($_arrModel[$arrCmp[0]][$arrCmp[1]],$mascara);
+			$mascara= isset($campos[$arrCmp[0]][$arrCmp[1]]['mascara']) ? $campos[$arrCmp[0]][$arrCmp[1]]['mascara'] : '';
+			$opcoes = isset($campos[$arrCmp[0]][$arrCmp[1]]['input']['options']) ? $campos[$arrCmp[0]][$arrCmp[1]]['input']['options'] : array();
+
+			$valor = $this->Visao->getMascara($_arrModel[$arrCmp[0]][$arrCmp[1]],$mascara,$opcoes);
+
 			echo '<td';
 			if (isset($campos[$arrCmp[0]][$arrCmp[1]]['td'])) foreach($campos[$arrCmp[0]][$arrCmp[1]]['td'] as $_tag => $_val) echo " $_tag='$_val'";
 			echo '>';
@@ -127,7 +137,10 @@ if (isset($camposPesquisa))
 				$_arrProp['link']	= isset($_arrProp['link']) 	? $_arrProp['link'] 	: '#';
 				if (strpos($_arrProp['link'],'{id}')) $_arrProp['link'] = str_replace('{id}',$id,$_arrProp['link']);
 				echo '<td align="center" class="tdFer" title="Clique aqui para executar a ferramenta">';
-				echo $this->Html->link($html->image('/jcake/img/'.$_arrProp['icone'],array('border'=>'none')),$_arrProp['link'],array('escape'=>false));
+				if (!isset($_arrProp['off'][$id]))
+				{
+					echo $this->Html->link($html->image('/jcake/img/'.$_arrProp['icone'],array('border'=>'none')),$_arrProp['link'],array('escape'=>false));
+				} else echo '&nbsp;';
 				echo '</td>'."\n";
 			}
 		}

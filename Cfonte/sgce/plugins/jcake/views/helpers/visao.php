@@ -17,7 +17,7 @@ class VisaoHelper extends Helper {
 	 * @var		array
 	 * @access	public
 	 */
-	public $helpers 	= array('Form','Html','Time','Session','Paginator');
+	public $helpers 		= array('Form','Html','Time','Session','Paginator');
 
 	/**
 	 * Conteúdo jquery no header
@@ -25,7 +25,7 @@ class VisaoHelper extends Helper {
 	 * @var		array
 	 * @access	public
 	 */
-	public $onReadView 	= array();
+	public $onReadView 		= array();
 
 	/**
 	 * Campos para o formulário
@@ -33,7 +33,7 @@ class VisaoHelper extends Helper {
 	 * @var		array
 	 * @access	public
 	 */
-	public $campos		= array();
+	public $campos			= array();
 
 	/**
 	 * Ferramentas para a lista
@@ -49,7 +49,7 @@ class VisaoHelper extends Helper {
 	 * @var		string	
 	 * @access	public
 	 */
-	public $escreverTitBt	= true;
+	public $escreverTitBt		= true;
 
 	/**
 	 * 
@@ -95,6 +95,15 @@ class VisaoHelper extends Helper {
 	 */
 	public function setHeaderCssJs($texto=null,$separador='/')
 	{
+		if ($this->action=='editar' || $this->action=='novo')
+		{
+			$this->Html->css('/jcake/css/jcake_editar.css', null, array('inline' => false));
+		}
+		if ($this->action=='listar')
+		{
+			$this->Html->css('/jcake/css/jcake_listar.css', null, array('inline' => false));
+		}
+
 		if (!empty($texto))
 		{
 			$arrTexto = explode($separador,$texto);
@@ -326,16 +335,17 @@ class VisaoHelper extends Helper {
 					if ( isset($this->Form->data[$arrCmp[0]] ) )
 					{
 						$valor		= '';
+						$opcoes		= isset($campos[$arrCmp[0]][$arrCmp[1]]['input']['options']) ? $campos[$arrCmp[0]][$arrCmp[1]]['input']['options'] : array();
 						if (isset($this->Form->data[$arrCmp[0]][$arrCmp[1]]))
 						{
-							$valor = $this->getMascara($this->Form->data[$arrCmp[0]][$arrCmp[1]],$mascara);
+							$valor = $this->getMascara($this->Form->data[$arrCmp[0]][$arrCmp[1]],$mascara,$opcoes);
 						} else
 						{
 							if (isset($this->Form->data[$arrCmp[0]][0]))
 							{
 								foreach($this->Form->data[$arrCmp[0]] as $_linha => $_arrRelCmp)
 								{
-									$valor .= $this->getMascara($_arrRelCmp[$arrCmp[1]],$mascara).', ';
+									$valor .= $this->getMascara($_arrRelCmp[$arrCmp[1]],$mascara,$opcoes).', ';
 								}
 								$valor = substr($valor,0,strlen($valor)-2);
 							}
@@ -402,9 +412,10 @@ class VisaoHelper extends Helper {
 	 * 
 	 * @parameter	string		$valor		Valor do campo
 	 * @param		string		$mascara	Máscara a ser aplicada no valor
+	 * @param		array		$opcoes		Opções para exibição, exemplo: 1=>Sim, 0=>Não
 	 * @return		string		$mascarado	Campo mascarado
 	 */
-	public function getMascara($valor='', $mascara='')
+	public function getMascara($valor='', $mascara='', $opcoes=array())
 	{
 		$mascarado = $valor;
 		switch($mascara)
@@ -432,12 +443,26 @@ class VisaoHelper extends Helper {
 			case '99.999-999':
 				$mascarado = substr($valor,0,2).'.'.substr($valor,2,3).'-'.substr($valor,5,3);
 				break;
+			case 'telefone':
+			case '99 9999-9999':
+				$mascarado = substr($valor,0,2).' '.substr($valor,2,4).'-'.substr($valor,6,4);
+				break;
+		}
+		if (count($opcoes)>0)
+		{
+			foreach($opcoes as $_val1 => $_val2)
+			{
+				if ($valor==$_val1) $mascarado = $_val2;
+			}
 		}
 		return $mascarado;
 	}
 
 	/**
+	 * Retorna a paginação
 	 * 
+	 * @param	string	$modelClass 	Nome do modelo
+	 * @return	string	$paginas
 	 */
 	public function getPaginas($modelClass='')
 	{

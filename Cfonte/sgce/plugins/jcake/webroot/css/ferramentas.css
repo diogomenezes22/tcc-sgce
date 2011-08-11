@@ -1,0 +1,29 @@
+#txtInstalaBanco
+{
+	margin: 50px auto;
+	width: 900px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 10px;
+	border: 1px solid #bbb;
+}
+
+#txtInstalaBanco .txt_sql
+{
+	background-color: red;
+	padding: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#txtInstalaBanco .sql_obs3
+{
+	text-align: center;
+}
+
+.txtFer
+{
+}

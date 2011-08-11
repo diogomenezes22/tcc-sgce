@@ -53,7 +53,12 @@ class ControladorComponent extends Object {
 	 */
 	public function listar()
 	{
-		$this->controller->data = $this->controller->paginate();
+		if ($this->controller->Session->check($this->controller->name.'.params') && !isset($this->controller->params['named']['page']))
+		{
+			//$this->controller->params['named'] = $this->controller->Session->read($this->controller->name.'.params');
+			//pr($this->controller->Session->read($this->controller->name.'.params'));
+		}
+		$this->controller->data = $this->getPagCache();
 		$this->controller->Session->write($this->controller->name.'.params',$this->controller->params['named']);
 	}
 
@@ -82,7 +87,6 @@ class ControladorComponent extends Object {
 			$this->controller->data = $this->controller->$modelClass->read(null,$id);
 		}
 		$this->controller->set(compact('id'));
-		//$this->setRelacionamentos();
 	}
 
 	/**
@@ -105,7 +109,6 @@ class ControladorComponent extends Object {
 				$this->controller->set('errosForm',array_reverse($this->controller->$modelClass->validationErrors));
 			}
 		}
-		//$this->setRelacionamentos();
 	}
 
 	/**
@@ -148,7 +151,6 @@ class ControladorComponent extends Object {
 		$modelClass = $this->controller->modelClass;
 		$this->controller->data = $this->controller->$modelClass->read(null,$id);
 		$this->controller->set(compact('id'));
-		//$this->setRelacionamentos();
 	}
 
 	/**
@@ -222,6 +224,35 @@ class ControladorComponent extends Object {
 				}
 			}
 		}
+	}
+
+	/**
+	 * Retorna a páginação seja do cache ou diratamente do banco. Se não achou no cachge, busca no banco e joga no cache.
+	 * 
+	 * Atualiza a lista de caches
+	 * 
+	 * @return void
+	 */
+	private function getPagCache()
+	{
+		$chave = 'Pag-'.$this->controller->modelClass.'-'.$this->controller->here;
+		if (($pagina = Cache::read($chave)) === false)
+		{
+			$pagina = $this->controller->paginate();
+			$paging = $this->controller->params['paging'];
+			Cache::write($chave, $pagina);
+			Cache::write($chave.'Paging', $paging);
+		} else
+		{
+			$this->controller->params['paging'] = Cache::read($chave.'Paging');
+		}
+
+		// atualizando o a lista de cache
+		if (($lista = Cache::read('listaCache')) === false) $lista = array();
+		if (!in_array($chave,$lista)) array_push($lista,$chave);
+		Cache::write('listaCache', $lista);
+
+		return $pagina;
 	}
 }
 ?>

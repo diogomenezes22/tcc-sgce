@@ -150,3 +150,18 @@
 {
 	padding: 0px 5px 0px 5px;
 }
+
+.lista #listaMenu
+{
+	width: 120px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+}
+
+.lista #listaMenu ul
+{
+	font-size: 20px;
+	margin: 0px 0px 0px 10px;
+	padding: 4px;
+	list-style: none;
+}

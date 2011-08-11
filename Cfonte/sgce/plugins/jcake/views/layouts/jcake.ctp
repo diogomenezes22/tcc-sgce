@@ -16,11 +16,9 @@
 	<?php echo $this->Html->meta('icon'); ?>
 
 	<?php echo $this->Html->css('/jcake/css/jcake_layout.css'); ?>
-	<?php if (file_exists(WWW_ROOT.'css/'.mb_strtolower($this->name).'.css')) echo $this->Html->css(mb_strtolower($this->name).'.css'); ?>
 
 	<?php echo $this->Html->script('/jcake/js/jquery-1.5.1.min')."\n"; ?>
 	<?php echo $this->Html->script('/jcake/js/jquery.maskedinput-1.1.4.pack')."\n"; ?>
-
 	<?php echo $this->Html->script('/jcake/js/jcake')."\n"; ?>
 
 	<script type="text/javascript">
@@ -33,7 +31,7 @@
 	});
 	</script>
 
-	<?php echo $scripts_for_layout;	?>
+	<?php echo $scripts_for_layout; ?>
 
 </head>
 <body>
@@ -43,23 +41,29 @@
 		<?php echo $this->Session->flash(); ?>
 
 		<div id='sigla'>
-			<a href='<?php echo Router::url('/',true); ?>'><?php echo (strlen($this->base)>0) ? str_replace('/','',$this->base) : 'Principal'; ?></a>
+			<a href='<?php echo Router::url('/',true); ?>'><?php echo SISTEMA; ?></a>
 
-			<?php if (isset($this->name)) : ?> :: <a href="<?php echo mb_strtolower(Router::url('/',true).$this->name); ?>" ><?php echo ucfirst($this->name); ?></a><?php endif ?>
+			<?php if (isset($this->name)) : ?> :: <a href="<?php echo mb_strtolower(Router::url('/',true).$this->name); ?>" ><?php echo isset($linkTit[1]) ? $linkTit[1] : ucfirst($this->name); ?></a><?php endif ?>
 
-			<?php if (isset($this->action)) : ?> :: <a href="<?php echo mb_strtolower(Router::url('/',true).$this->name.'/'.$this->action); ?>" ><?php echo ucfirst($this->action); ?></a><?php endif ?>
+			<?php if (isset($this->action)) : ?> :: <a href="<?php echo mb_strtolower(Router::url('/',true).$this->name.'/'.$this->action); ?>" ><?php echo isset($linkTit[2]) ? $linkTit[2] : ucfirst($this->action); ?></a><?php endif ?>
 
 		</div>
 
+		<?php if ($this->Session->check('usuario')) : ?>
 		<div id='ferramentas'>
 			<a href='<?php echo Router::url('/',true).'ferramentas'; ?>' title='Clique aqui para acessar ferramentas'><img id='ferFer' src='<?php echo Router::url('/',true).'img/bt_ferramentas.png'; ?>' border='0' /></a>
 			<a href='<?php echo Router::url('/',true).'relatorios'; ?>'  title='Clique aqui para acessar relatórios'> <img id='ferRel' src='<?php echo Router::url('/',true).'img/bt_relatorios.png'; ?>'  border='0' /></a>
 		</div>
 
 		<div id='menu'>
-			<?php echo $this->Html->link('Usuários',array('plugin'=>null,'controller'=>'usuarios','action'=>'listar')); ?>&nbsp;&nbsp;:&nbsp;&nbsp;
-		
+			<?php echo $this->element('menu'); ?>
 		</div>
+
+		<div id='menuLogin'>
+			<a href='<?php echo Router::url('/',true).'usuarios/info'; ?>'><?php echo $this->Session->read('usuario.login'); ?></a>
+			<a href='<?php echo Router::url('/',true).'usuarios/sair'; ?>'>Sair</a>
+		</div>
+		<?php endif; ?>
 
 		<div id='logocake'>
 			<a href='http://www.cakephp.org' target='-blanck'><img src="<?php echo Router::url('/',true); ?>/jcake/img/cake.power.gif" border="none" alt="" /></a>
@@ -77,6 +81,7 @@
 
 <div id='sqlDump'>
 <?php echo $this->element('sql_dump'); ?>
+
 </div>
 
 </body>

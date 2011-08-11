@@ -61,7 +61,7 @@ class UsuariosController extends AppController {
 
 		$campos['Usuario']['status']['input']['label']['text'] 				= 'Situação';
 		$campos['Usuario']['status']['input']['options']					= array('1'=>'Ativo', '0'=>'Inativo');
-		$campos['Usuario']['status']['th']['width']							= '100px';
+		$campos['Usuario']['status']['th']['width']							= '80px';
 
 		$campos['Usuario']['voluntario']['input']['label']['text']			= 'Voluntário?';
 		$campos['Usuario']['voluntario']['input']['options']				= array('1'=>'Sim', '0'=>'Não');
@@ -78,7 +78,7 @@ class UsuariosController extends AppController {
 
 		$campos['Usuario']['nome']['input']['label']['text'] 				= 'Nome';
 		$campos['Usuario']['nome']['input']['style']						= 'width: 250px; text-align: left';
-		$campos['Usuario']['nome']['th']['width']							= '300px';
+		$campos['Usuario']['nome']['th']['width']							= '200px';
 
 		$campos['Usuario']['email']['input']['label']['text'] 				= 'E-mail';
 		$campos['Usuario']['email']['input']['style']						= 'width: 250px; text-align: left';
@@ -87,7 +87,6 @@ class UsuariosController extends AppController {
 		$campos['Usuario']['senha']['input']['label']['text'] 				= 'Senha';
 		$campos['Usuario']['senha']['input']['style']						= 'width: 250px; text-align: left';
 		$campos['Usuario']['senha']['input']['type']						= 'password';
-		$campos['Usuario']['senha']['th']['width']							= '150px';
 
 		$campos['Usuario']['cpf']['input']['label']['text'] 				= 'CPF';
 		$campos['Usuario']['cpf']['input']['style']							= 'width: 120px; text-align: center;';
@@ -160,9 +159,9 @@ class UsuariosController extends AppController {
 			array_unshift($onReadView,'$("#UsuarioPrestacaoServico").focus();');
 		}
 
-		if ($this->data)
+		if ($this->data && in_array($this->action,array('editar')))
 		{
-			//$this->data['Usuario']['senha'] = '';
+			$this->data['Usuario']['senha'] = '';
 		}
 
 		$this->set(compact('listaCampos','edicaoCampos','campos','camposPesquisa','escreverTitBt','onReadView','listaFerramentas','botoesEdicao'));

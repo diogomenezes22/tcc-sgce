@@ -8,7 +8,6 @@
 ?>
 <?php if (!isset($edicaoCampos)) die('É preciso definir quais campos serão editados. Crie a variável <strong>$edicaoCampos</strong> no evento <strong>beforeRender</strong> do seu controlador <strong>'.$this->name.'</strong>.'); ?>
 <?php $this->Visao->escreverTitBt = isset($escreverTitBt) ? $escreverTitBt : $this->Visao->escreverTitBt; ?>
-<?php $this->Html->css('/jcake/css/jcake_editar.css', null, array('inline' => false)); ?>
 <?php echo $this->Form->create($modelClass, array('url'=>str_replace($this->base,'',$this->here)))."\n"; ?>
 <?php echo $this->Form->input($primaryKey)."\n"; ?>
 <?php if (isset($onReadView)) foreach($onReadView as $_codigo) $this->Visao->setOnReadView($_codigo); ?>
