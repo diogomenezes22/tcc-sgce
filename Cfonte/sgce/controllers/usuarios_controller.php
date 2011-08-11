@@ -140,11 +140,11 @@ class UsuariosController extends AppController {
 
 		$campos['Usuario']['telefone']['input']['label']['text'] 			= 'Telefone';
 		$campos['Usuario']['telefone']['input']['style']					= 'width: 95px; text-align: center;';
-		$campos['Usuario']['telefone']['mascara']							= '(99) 9999-9999';
+		$campos['Usuario']['telefone']['mascara']							= '99 9999-9999';
 
 		$campos['Usuario']['celular']['input']['label']['text'] 			= 'Celular';
 		$campos['Usuario']['celular']['input']['style']						= 'width: 95px; text-align: center;';
-		$campos['Usuario']['celular']['mascara']							= '(99) 9999-9999';
+		$campos['Usuario']['celular']['mascara']							= '99 9999-9999';
 
 
 		//Desativa ordenação de campo com clique no título da lista ou do DBgrid
