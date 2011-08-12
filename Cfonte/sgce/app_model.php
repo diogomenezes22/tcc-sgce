@@ -1,12 +1,13 @@
 <?php
 /**
- * @package       exemploApp
- * @subpackage    exemploApp.model
+ * Model pai de todos
+ * 
+ * @package       icake
+ * @subpackage    icake.model
  */
-
 /**
- * @package       exemploApp
- * @subpackage    exemploApp.model
+ * @package       icake
+ * @subpackage    icake.model
  */
 class AppModel extends Model {
 	/**
@@ -15,7 +16,7 @@ class AppModel extends Model {
 	 * @var		array
 	 * @access	public
 	 */
-	public $cacheModels = array('Estado','Cidade','Grupo');
+	public $cacheModels = array('Estado','Cidade','Perfil');
 
 	/**
 	 * Retorna uma lista do model
@@ -90,6 +91,23 @@ class AppModel extends Model {
 
 			// invalidando cache all
 			Cache::delete('all_'.$this->name);
+		}
+		
+		// deletando a paginação
+		if (($lista = Cache::read('listaCache')) === false)
+		{
+		} else
+		{
+			foreach($lista as $_chave)
+			{
+				// deletando a páginação do model
+				if (substr($_chave,0,strlen('Pag-'.$this->name))=='Pag-'.$this->name)
+				{
+					Cache::delete($_chave);
+					Cache::delete($_chave.'Paging');
+					//echo 'deletei: '.$_chave.'<br />';
+				}
+			}
 		}
 	}
 }
