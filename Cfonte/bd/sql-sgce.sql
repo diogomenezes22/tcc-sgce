@@ -63,38 +63,29 @@ DROP TABLE IF EXISTS `mantimentos` ;
 
 CREATE  TABLE IF NOT EXISTS `mantimentos` (
   `id` INT NOT NULL AUTO_INCREMENT ,
+  `tipo` VARCHAR(45) NOT NULL ,
   `nome` VARCHAR(45) NOT NULL ,
-  `tipo` VARCHAR(30) NOT NULL ,
-  `data_entrada` DATE NOT NULL ,
-  `validade` DATE NOT NULL ,
-  `usuario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_mantimentos_usuarios1` (`usuario_id` ASC) ,
-  CONSTRAINT `fk_mantimentos_usuarios1`
-    FOREIGN KEY (`usuario_id` )
-    REFERENCES `usuarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `cestas`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `cestas` ;
-
-CREATE  TABLE IF NOT EXISTS `cestas` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
   `quantidade` INT NOT NULL ,
-  `saida` DATE NOT NULL ,
-  `usuario_id` INT NOT NULL ,
+  PRIMARY KEY (`id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `estoques`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `estoques` ;
+
+CREATE  TABLE IF NOT EXISTS `estoques` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `mantimento_id` INT NOT NULL ,
+  `data_entrada` DATE NOT NULL ,
+  `data_vencimento` DATE NOT NULL ,
+  `data_saida` DATE NOT NULL ,
   PRIMARY KEY (`id`) ,
-  INDEX `fk_cestas_usuarios1` (`usuario_id` ASC) ,
-  CONSTRAINT `fk_cestas_usuarios1`
-    FOREIGN KEY (`usuario_id` )
-    REFERENCES `usuarios` (`id` )
+  INDEX `fk_estoques_mantimentos1` (`mantimento_id` ASC) ,
+  CONSTRAINT `fk_estoques_mantimentos1`
+    FOREIGN KEY (`mantimento_id` )
+    REFERENCES `mantimentos` (`id` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -109,24 +100,16 @@ DROP TABLE IF EXISTS `familias` ;
 
 CREATE  TABLE IF NOT EXISTS `familias` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `status` TINYINT(1)  NOT NULL ,
-  `nome` VARCHAR(30) NOT NULL ,
-  `cpf` VARCHAR(11) NULL ,
-  `dt_nasc` DATE NOT NULL ,
-  `endereco` VARCHAR(60) NOT NULL ,
+  `cidade` VARCHAR(50) NOT NULL ,
+  `endereco` VARCHAR(200) NOT NULL ,
   `numero` VARCHAR(7) NOT NULL ,
   `complemento` VARCHAR(7) NULL ,
   `bairro` VARCHAR(20) NOT NULL ,
-  `referencia` VARCHAR(20) NULL ,
-  `cidade` VARCHAR(20) NOT NULL ,
-  `escolaridade` VARCHAR(20) NULL ,
-  `ocupacao` VARCHAR(40) NULL ,
-  `trabalha` TINYINT(1)  NULL ,
-  `companheiro` TINYINT(1)  NULL ,
-  `dependente` TINYINT(1)  NULL ,
-  `pai_mae` TINYINT(1)  NULL ,
-  `renda_familia` DOUBLE NULL ,
-  `renda_percapta` DOUBLE NULL ,
+  `telefone` VARCHAR(13) NULL ,
+  `referencia` VARCHAR(100) NULL ,
+  `renda_familiar` FLOAT NULL ,
+  `renda_percapta` FLOAT NULL ,
+  `status` TINYINT(1)  NOT NULL ,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
@@ -134,22 +117,17 @@ COLLATE = utf8_general_ci;
 
 
 -- -----------------------------------------------------
--- Table `companheiros`
+-- Table `cestas`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `companheiros` ;
+DROP TABLE IF EXISTS `cestas` ;
 
-CREATE  TABLE IF NOT EXISTS `companheiros` (
+CREATE  TABLE IF NOT EXISTS `cestas` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `nome` VARCHAR(50) NOT NULL ,
-  `escolaridade` VARCHAR(40) NOT NULL ,
-  `profissao` VARCHAR(50) NOT NULL ,
-  `ocupacao` VARCHAR(60) NOT NULL ,
-  `trabalha` TINYINT(1)  NOT NULL ,
-  `local_trabalho` VARCHAR(50) NULL ,
   `familia_id` INT NOT NULL ,
+  `data_saida` DATE NOT NULL ,
   PRIMARY KEY (`id`) ,
-  INDEX `fk_companheiros_familias1` (`familia_id` ASC) ,
-  CONSTRAINT `fk_companheiros_familias1`
+  INDEX `fk_cestas_familias1` (`familia_id` ASC) ,
+  CONSTRAINT `fk_cestas_familias1`
     FOREIGN KEY (`familia_id` )
     REFERENCES `familias` (`id` )
     ON DELETE NO ACTION
@@ -160,51 +138,14 @@ COLLATE = utf8_general_ci;
 
 
 -- -----------------------------------------------------
--- Table `dependentes`
+-- Table `encontros`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dependentes` ;
+DROP TABLE IF EXISTS `encontros` ;
 
-CREATE  TABLE IF NOT EXISTS `dependentes` (
+CREATE  TABLE IF NOT EXISTS `encontros` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `nome` VARCHAR(30) NOT NULL ,
-  `dt_nasc` DATE NOT NULL ,
-  `parentesco` VARCHAR(10) NOT NULL ,
-  `escolaridade` VARCHAR(20) NULL ,
-  `escola` VARCHAR(30) NULL ,
-  `manequim` VARCHAR(10) NOT NULL ,
-  `ocupacao` VARCHAR(20) NOT NULL ,
-  `renda` DOUBLE NULL ,
-  `familia_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_dependentes_familias1` (`familia_id` ASC) ,
-  CONSTRAINT `fk_dependentes_familias1`
-    FOREIGN KEY (`familia_id` )
-    REFERENCES `familias` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `situacoes_nutricionais`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `situacoes_nutricionais` ;
-
-CREATE  TABLE IF NOT EXISTS `situacoes_nutricionais` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `peso` DOUBLE NULL ,
-  `altura` DOUBLE NULL ,
-  `situacao_nutricional` TINYINT(1)  NOT NULL ,
-  `dependente_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_situacoes_nutricionais_dependentes1` (`dependente_id` ASC) ,
-  CONSTRAINT `fk_situacoes_nutricionais_dependentes1`
-    FOREIGN KEY (`dependente_id` )
-    REFERENCES `dependentes` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+  `data` DATE NOT NULL ,
+  PRIMARY KEY (`id`) )
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
@@ -217,259 +158,13 @@ DROP TABLE IF EXISTS `questionarios` ;
 
 CREATE  TABLE IF NOT EXISTS `questionarios` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `qt_comodo` INT NULL ,
-  `qt_banheiro` INT NULL ,
-  `risco_terreno` TINYINT(1)  NULL ,
-  `esgoto` TINYINT(1)  NULL ,
-  `energia` TINYINT(1)  NULL ,
-  `horta` TINYINT(1)  NULL ,
-  `vulnerabilidade` VARCHAR(25) NULL ,
-  `documento` TINYINT(1)  NULL ,
-  `nome_nao_doc` VARCHAR(30) NULL ,
-  `certidao_nasc` TINYINT(1)  NULL ,
-  `nome_nao_certidao` VARCHAR(30) NULL ,
-  `vacinacao` TINYINT(1)  NULL ,
-  `nome_vacinacao` VARCHAR(30) NULL ,
-  `dt_posto_saude` DATE NULL ,
-  `frequencia_aula` TINYINT(1)  NULL ,
-  `motivo_falta_aula` VARCHAR(70) NULL ,
-  `idade_doente` INT NULL ,
-  `tratamento` TINYINT(1)  NULL ,
-  `cuidado_animal` TINYINT(1)  NULL ,
-  `providencia_animal` VARCHAR(50) NULL ,
-  `gravidez_adolescencia` TINYINT(1)  NULL ,
-  `contraceptivo` TINYINT(1)  NULL ,
-  `tipo_contraceptivo` VARCHAR(20) NULL ,
-  `orientacao_medica` TINYINT(1)  NULL ,
-  `acompanhamento_medico` DATE NULL ,
-  `psicologia` TINYINT(1)  NULL ,
-  `nome_necessitado` VARCHAR(30) NULL ,
-  `motivo_psicologia` VARCHAR(45) NULL ,
-  `dt_psicologia` DATE NULL ,
-  `conselho` TINYINT(1)  NULL ,
-  `nome_aconcelhado` VARCHAR(30) NULL ,
-  `motivo_aconcelhado` VARCHAR(70) NULL ,
-  `curso_tecnico` VARCHAR(45) NULL ,
-  `fazer_curso_tecnico` VARCHAR(45) NULL ,
-  `organizacao_comunitaria` VARCHAR(30) NULL ,
-  `tipo_organizacao` VARCHAR(30) NULL ,
-  `importancia_familia` TEXT NULL ,
-  `oferecido_instituicao` TEXT NULL ,
-  `bolsa_familia` TINYINT(1)  NULL ,
-  `recebe_ajuda_outra_instituicao` TINYINT(1)  NULL ,
-  `qual_instituicao` VARCHAR(30) NULL ,
-  `observacao` TEXT NULL ,
-  `emcasa` TINYINT(1)  NULL ,
-  `familia_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_questionarios_familias1` (`familia_id` ASC) ,
-  CONSTRAINT `fk_questionarios_familias1`
-    FOREIGN KEY (`familia_id` )
-    REFERENCES `familias` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `habitacionais`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `habitacionais` ;
-
-CREATE  TABLE IF NOT EXISTS `habitacionais` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `aluguel` TINYINT(1)  NULL ,
-  `casa_propria` TINYINT(1)  NULL ,
-  `cedida` TINYINT(1)  NULL ,
-  `questionario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_habitacionais_questionarios1` (`questionario_id` ASC) ,
-  CONSTRAINT `fk_habitacionais_questionarios1`
-    FOREIGN KEY (`questionario_id` )
-    REFERENCES `questionarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `construcoes`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `construcoes` ;
-
-CREATE  TABLE IF NOT EXISTS `construcoes` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `alvenaria` TINYINT(1)  NULL ,
-  `madeira` TINYINT(1)  NULL ,
-  `outro` VARCHAR(20) NULL ,
-  `questionario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_construcoes_questionarios1` (`questionario_id` ASC) ,
-  CONSTRAINT `fk_construcoes_questionarios1`
-    FOREIGN KEY (`questionario_id` )
-    REFERENCES `questionarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `limpezas`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `limpezas` ;
-
-CREATE  TABLE IF NOT EXISTS `limpezas` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `bom` TINYINT(1)  NULL ,
-  `regular` TINYINT(1)  NULL ,
-  `pessimo` TINYINT(1)  NULL ,
-  `questionario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_limpezas_questionarios1` (`questionario_id` ASC) ,
-  CONSTRAINT `fk_limpezas_questionarios1`
-    FOREIGN KEY (`questionario_id` )
-    REFERENCES `questionarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `doencas`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `doencas` ;
-
-CREATE  TABLE IF NOT EXISTS `doencas` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `obesidade` TINYINT(1)  NULL ,
-  `pressao_alta` TINYINT(1)  NULL ,
-  `diabetes` TINYINT(1)  NULL ,
-  `dependencia_quimica` TINYINT(1)  NULL ,
-  `deficiencia_mental` TINYINT(1)  NULL ,
-  `deficiencia_locomocao` TINYINT(1)  NULL ,
-  `em_tratamento` TINYINT(1)  NULL ,
-  `questionario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_doencas_questionarios1` (`questionario_id` ASC) ,
-  CONSTRAINT `fk_doencas_questionarios1`
-    FOREIGN KEY (`questionario_id` )
-    REFERENCES `questionarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `animais`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `animais` ;
-
-CREATE  TABLE IF NOT EXISTS `animais` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `cachorro` TINYINT(1)  NULL ,
-  `gato` TINYINT(1)  NULL ,
-  `galinha` TINYINT(1)  NULL ,
-  `porco` TINYINT(1)  NULL ,
-  `cabrito` TINYINT(1)  NULL ,
-  `cavalo` TINYINT(1)  NULL ,
-  `questionario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_animais_questionarios1` (`questionario_id` ASC) ,
-  CONSTRAINT `fk_animais_questionarios1`
-    FOREIGN KEY (`questionario_id` )
-    REFERENCES `questionarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `equipamentos_sociais`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `equipamentos_sociais` ;
-
-CREATE  TABLE IF NOT EXISTS `equipamentos_sociais` (
-  `id` INT NOT NULL AUTO_INCREMENT ,
-  `saude` TINYINT(1)  NULL ,
-  `lazer` TINYINT(1)  NULL ,
-  `atencao_adolescente` TINYINT(1)  NULL ,
-  `atencao_idoso` TINYINT(1)  NULL ,
-  `creche` TINYINT(1)  NULL ,
-  `ensino` VARCHAR(30) NULL ,
-  `questionario_id` INT NOT NULL ,
-  PRIMARY KEY (`id`) ,
-  INDEX `fk_equipamentos_sociais_questionarios1` (`questionario_id` ASC) ,
-  CONSTRAINT `fk_equipamentos_sociais_questionarios1`
-    FOREIGN KEY (`questionario_id` )
-    REFERENCES `questionarios` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `cestas_familias`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `cestas_familias` ;
-
-CREATE  TABLE IF NOT EXISTS `cestas_familias` (
-  `cesta_id` INT NOT NULL ,
-  `familia_id` INT NOT NULL ,
-  PRIMARY KEY (`cesta_id`, `familia_id`) ,
-  INDEX `fk_cestas_has_familias_familias1` (`familia_id` ASC) ,
-  INDEX `fk_cestas_has_familias_cestas1` (`cesta_id` ASC) ,
-  CONSTRAINT `fk_cestas_has_familias_cestas1`
-    FOREIGN KEY (`cesta_id` )
-    REFERENCES `cestas` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_cestas_has_familias_familias1`
-    FOREIGN KEY (`familia_id` )
-    REFERENCES `familias` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
--- -----------------------------------------------------
--- Table `mantimentos_cestas`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `mantimentos_cestas` ;
-
-CREATE  TABLE IF NOT EXISTS `mantimentos_cestas` (
-  `cesta_id` INT NOT NULL ,
-  `mantimento_id` INT NOT NULL ,
-  PRIMARY KEY (`cesta_id`, `mantimento_id`) ,
-  INDEX `fk_mantimentos_cestas_mantimentos1` (`mantimento_id` ASC) ,
-  CONSTRAINT `fk_mantimentos_cestas_cestas1`
-    FOREIGN KEY (`cesta_id` )
-    REFERENCES `cestas` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_mantimentos_cestas_mantimentos1`
-    FOREIGN KEY (`mantimento_id` )
-    REFERENCES `mantimentos` (`id` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
+  `titulo` VARCHAR(45) NULL ,
+  `descricao` TEXT NULL ,
+  `parent_id` INT NULL ,
+  `lft` INT NULL ,
+  `rght` INT NULL ,
+  PRIMARY KEY (`id`) )
+ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -479,14 +174,107 @@ DROP TABLE IF EXISTS `frequencias` ;
 
 CREATE  TABLE IF NOT EXISTS `frequencias` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `status` VARCHAR(2) NOT NULL ,
-  `data` DATE NOT NULL ,
+  `encontro_id` INT NOT NULL ,
   `familia_id` INT NOT NULL ,
+  `codigo` VARCHAR(10) NOT NULL ,
   PRIMARY KEY (`id`) ,
+  INDEX `fk_frequencias_encontros1` (`encontro_id` ASC) ,
   INDEX `fk_frequencias_familias1` (`familia_id` ASC) ,
+  CONSTRAINT `fk_frequencias_encontros1`
+    FOREIGN KEY (`encontro_id` )
+    REFERENCES `encontros` (`id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
   CONSTRAINT `fk_frequencias_familias1`
     FOREIGN KEY (`familia_id` )
     REFERENCES `familias` (`id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `familias_questionarios`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `familias_questionarios` ;
+
+CREATE  TABLE IF NOT EXISTS `familias_questionarios` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `familia_id` INT NOT NULL ,
+  `questionario_id` INT NOT NULL ,
+  PRIMARY KEY (`id`, `familia_id`, `questionario_id`) ,
+  INDEX `fk_familias_has_questionarios_familias1` (`familia_id` ASC) ,
+  INDEX `fk_familias_has_questionarios_questionarios1` (`questionario_id` ASC) ,
+  CONSTRAINT `fk_familias_has_questionarios_familias1`
+    FOREIGN KEY (`familia_id` )
+    REFERENCES `familias` (`id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_familias_has_questionarios_questionarios1`
+    FOREIGN KEY (`questionario_id` )
+    REFERENCES `questionarios` (`id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+
+-- -----------------------------------------------------
+-- Table `pessoas`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `pessoas` ;
+
+CREATE  TABLE IF NOT EXISTS `pessoas` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `familia_id` INT NOT NULL ,
+  `tipo` VARCHAR(45) NOT NULL ,
+  `nome` VARCHAR(45) NOT NULL ,
+  `cpf` VARCHAR(14) NULL ,
+  `telefone` VARCHAR(45) NULL ,
+  `nascimento` DATE NULL ,
+  `parentesco` VARCHAR(45) NULL ,
+  `escolaridade` VARCHAR(45) NULL ,
+  `estuda` TINYINT(1)  NOT NULL ,
+  `nome_escola` VARCHAR(45) NULL ,
+  `profissao` VARCHAR(45) NULL ,
+  `trabalha` TINYINT(1)  NOT NULL ,
+  `nome_empresa` VARCHAR(45) NULL ,
+  `manequim` VARCHAR(45) NULL ,
+  `situacao_nutricional` TINYINT(1)  NOT NULL ,
+  `altura` DOUBLE NULL ,
+  `peso` DOUBLE NULL ,
+  `renda` FLOAT NULL ,
+  PRIMARY KEY (`id`) ,
+  INDEX `fk_pessoas_familias1` (`familia_id` ASC) ,
+  CONSTRAINT `fk_pessoas_familias1`
+    FOREIGN KEY (`familia_id` )
+    REFERENCES `familias` (`id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `cestas_estoques`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `cestas_estoques` ;
+
+CREATE  TABLE IF NOT EXISTS `cestas_estoques` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `cesta_id` INT NOT NULL ,
+  `estoque_id` INT NOT NULL ,
+  PRIMARY KEY (`id`, `cesta_id`, `estoque_id`) ,
+  INDEX `fk_cestas_has_estoques_cestas1` (`cesta_id` ASC) ,
+  INDEX `fk_cestas_has_estoques_estoques1` (`estoque_id` ASC) ,
+  CONSTRAINT `fk_cestas_has_estoques_cestas1`
+    FOREIGN KEY (`cesta_id` )
+    REFERENCES `cestas` (`id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_cestas_has_estoques_estoques1`
+    FOREIGN KEY (`estoque_id` )
+    REFERENCES `estoques` (`id` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
