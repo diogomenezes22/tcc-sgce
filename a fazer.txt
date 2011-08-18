@@ -97,6 +97,12 @@ pag 44: "de forma que o esse ...." -> de forma que o mesmo.
 	
 pag 46: "que poderiam estar a ser adquiridos" -> "poderiam ser adquiridos"
 	"ferramentas livres nao possuir" -> possuirem
+----------------------------------------------------------------------------------------
+PROCESSO DE TESTES
+
+Cadastrar usuário:
+
+Campo Situação(status) por default fica como ativo e após salvar o cadastro, o usuario está como inativo.
 
 	
 
