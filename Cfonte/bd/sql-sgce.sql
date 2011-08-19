@@ -12,22 +12,21 @@ CREATE  TABLE IF NOT EXISTS `usuarios` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `status` TINYINT(1)  NOT NULL ,
   `perfil` VARCHAR(20) NOT NULL ,
-  `voluntario` TINYINT(1)  NOT NULL ,
   `prestacao_servico` VARCHAR(50) NOT NULL ,
-  `nome` VARCHAR(50) NOT NULL ,
-  `email` VARCHAR(40) NOT NULL ,
-  `senha` VARCHAR(20) NOT NULL ,
-  `cpf` VARCHAR(11) NOT NULL ,
+  `nome` VARCHAR(60) NOT NULL ,
+  `email` VARCHAR(50) NOT NULL ,
+  `senha` VARCHAR(100) NOT NULL ,
+  `cpf` VARCHAR(14) NOT NULL ,
   `rg` VARCHAR(10) NULL ,
-  `endereco` VARCHAR(60) NULL ,
+  `endereco` VARCHAR(100) NULL ,
   `numero` VARCHAR(7) NULL ,
   `complemento` VARCHAR(7) NULL ,
-  `bairro` VARCHAR(20) NULL ,
-  `cidade` VARCHAR(20) NULL ,
+  `bairro` VARCHAR(40) NULL ,
+  `cidade` VARCHAR(40) NULL ,
   `uf` VARCHAR(2) NULL ,
-  `cep` VARCHAR(8) NULL ,
-  `telefone` VARCHAR(10) NULL ,
-  `celular` VARCHAR(10) NULL ,
+  `cep` VARCHAR(10) NULL ,
+  `telefone` VARCHAR(13) NULL ,
+  `celular` VARCHAR(13) NULL ,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
@@ -66,6 +65,7 @@ CREATE  TABLE IF NOT EXISTS `mantimentos` (
   `tipo` VARCHAR(45) NOT NULL ,
   `nome` VARCHAR(45) NOT NULL ,
   `quantidade` INT NOT NULL ,
+  `medida` VARCHAR(20) NOT NULL ,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB;
 
@@ -77,6 +77,7 @@ DROP TABLE IF EXISTS `estoques` ;
 
 CREATE  TABLE IF NOT EXISTS `estoques` (
   `id` INT NOT NULL AUTO_INCREMENT ,
+  `descricao` VARCHAR(120) NOT NULL ,
   `mantimento_id` INT NOT NULL ,
   `data_entrada` DATE NOT NULL ,
   `data_vencimento` DATE NOT NULL ,
@@ -123,8 +124,9 @@ DROP TABLE IF EXISTS `cestas` ;
 
 CREATE  TABLE IF NOT EXISTS `cestas` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `familia_id` INT NOT NULL ,
-  `data_saida` DATE NOT NULL ,
+  `data_gerado` DATETIME NOT NULL ,
+  `familia_id` INT NULL ,
+  `data_saida` DATE NULL ,
   PRIMARY KEY (`id`) ,
   INDEX `fk_cestas_familias1` (`familia_id` ASC) ,
   CONSTRAINT `fk_cestas_familias1`
@@ -280,6 +282,30 @@ CREATE  TABLE IF NOT EXISTS `cestas_estoques` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
+
+
+-- -----------------------------------------------------
+-- Table `voluntarios`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `voluntarios` ;
+
+CREATE  TABLE IF NOT EXISTS `voluntarios` (
+  `id` INT NOT NULL ,
+  `status` TINYINT(1)  NOT NULL ,
+  `prestacao_servico` VARCHAR(50) NOT NULL ,
+  `nome` VARCHAR(60) NOT NULL ,
+  `email` VARCHAR(50) NULL ,
+  `endereco` VARCHAR(100) NULL ,
+  `complemento` VARCHAR(7) NULL ,
+  `numero` VARCHAR(7) NULL ,
+  `bairro` VARCHAR(40) NULL ,
+  `cidade` VARCHAR(40) NULL ,
+  `uf` VARCHAR(2) NULL ,
+  `cep` VARCHAR(9) NULL ,
+  `telefone` VARCHAR(13) NULL ,
+  `celular` VARCHAR(13) NULL ,
+  PRIMARY KEY (`id`) )
+ENGINE = InnoDB;
 
 
 
