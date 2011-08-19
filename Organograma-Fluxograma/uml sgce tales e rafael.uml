@@ -1813,7 +1813,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedDiagrams[2]" type="UMLUseCaseDiagram" guid="2nvOd04gXUy7C/OtXIHqjgAA">
-<XPD:ATTR name="Name" type="string">diag Gestor</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">diag estoquista</XPD:ATTR>
 <XPD:REF name="DiagramOwner">HB96zK1k0UiQf2TjdKHXfQAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLUseCaseDiagramView" guid="c/xbrpouoEuCfAPHmxusGQAA">
 <XPD:REF name="Diagram">2nvOd04gXUy7C/OtXIHqjgAA</XPD:REF>
