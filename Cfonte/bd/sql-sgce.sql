@@ -40,9 +40,9 @@ DROP TABLE IF EXISTS `logs` ;
 
 CREATE  TABLE IF NOT EXISTS `logs` (
   `id` INT NOT NULL AUTO_INCREMENT ,
+  `usuario_id` INT NOT NULL ,
   `data` DATETIME NOT NULL ,
   `descricao` VARCHAR(45) NULL ,
-  `usuario_id` INT NOT NULL ,
   PRIMARY KEY (`id`) ,
   INDEX `fk_logs_usuarios1` (`usuario_id` ASC) ,
   CONSTRAINT `fk_logs_usuarios1`
@@ -77,7 +77,6 @@ DROP TABLE IF EXISTS `estoques` ;
 
 CREATE  TABLE IF NOT EXISTS `estoques` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `descricao` VARCHAR(120) NOT NULL ,
   `mantimento_id` INT NOT NULL ,
   `data_entrada` DATE NOT NULL ,
   `data_vencimento` DATE NOT NULL ,
@@ -102,7 +101,7 @@ DROP TABLE IF EXISTS `familias` ;
 CREATE  TABLE IF NOT EXISTS `familias` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `cidade` VARCHAR(50) NOT NULL ,
-  `endereco` VARCHAR(200) NOT NULL ,
+  `endereco` VARCHAR(100) NOT NULL ,
   `numero` VARCHAR(7) NOT NULL ,
   `complemento` VARCHAR(7) NULL ,
   `bairro` VARCHAR(20) NOT NULL ,
@@ -124,8 +123,8 @@ DROP TABLE IF EXISTS `cestas` ;
 
 CREATE  TABLE IF NOT EXISTS `cestas` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `data_gerado` DATETIME NOT NULL ,
-  `familia_id` INT NULL ,
+  `familia_id` INT NOT NULL ,
+  `data_gerada` DATETIME NOT NULL ,
   `data_saida` DATE NULL ,
   PRIMARY KEY (`id`) ,
   INDEX `fk_cestas_familias1` (`familia_id` ASC) ,
@@ -230,22 +229,22 @@ DROP TABLE IF EXISTS `pessoas` ;
 CREATE  TABLE IF NOT EXISTS `pessoas` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `familia_id` INT NOT NULL ,
-  `tipo` VARCHAR(45) NOT NULL ,
-  `nome` VARCHAR(45) NOT NULL ,
+  `tipo` VARCHAR(20) NOT NULL ,
+  `nome` VARCHAR(60) NOT NULL ,
   `cpf` VARCHAR(14) NULL ,
-  `telefone` VARCHAR(45) NULL ,
+  `telefone` VARCHAR(13) NULL ,
   `nascimento` DATE NULL ,
-  `parentesco` VARCHAR(45) NULL ,
-  `escolaridade` VARCHAR(45) NULL ,
+  `parentesco` VARCHAR(20) NULL ,
+  `escolaridade` VARCHAR(50) NULL ,
   `estuda` TINYINT(1)  NOT NULL ,
-  `nome_escola` VARCHAR(45) NULL ,
-  `profissao` VARCHAR(45) NULL ,
+  `nome_escola` VARCHAR(60) NULL ,
+  `profissao` VARCHAR(50) NULL ,
   `trabalha` TINYINT(1)  NOT NULL ,
-  `nome_empresa` VARCHAR(45) NULL ,
+  `local_trabalho` VARCHAR(50) NULL ,
   `manequim` VARCHAR(45) NULL ,
-  `situacao_nutricional` TINYINT(1)  NOT NULL ,
-  `altura` DOUBLE NULL ,
   `peso` DOUBLE NULL ,
+  `altura` DOUBLE NULL ,
+  `situacao_nutricional` TINYINT(1)  NOT NULL ,
   `renda` FLOAT NULL ,
   PRIMARY KEY (`id`) ,
   INDEX `fk_pessoas_familias1` (`familia_id` ASC) ,
