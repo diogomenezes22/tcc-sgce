@@ -100,6 +100,7 @@ DROP TABLE IF EXISTS `familias` ;
 
 CREATE  TABLE IF NOT EXISTS `familias` (
   `id` INT NOT NULL AUTO_INCREMENT ,
+  `status` TINYINT(1)  NOT NULL ,
   `cidade` VARCHAR(50) NOT NULL ,
   `endereco` VARCHAR(100) NOT NULL ,
   `numero` VARCHAR(7) NOT NULL ,
@@ -107,9 +108,11 @@ CREATE  TABLE IF NOT EXISTS `familias` (
   `bairro` VARCHAR(20) NOT NULL ,
   `telefone` VARCHAR(13) NULL ,
   `referencia` VARCHAR(100) NULL ,
+  `companheiro` TINYINT(1)  NOT NULL ,
+  `dependente` TINYINT(1)  NOT NULL ,
+  `possui_pai_mae` TINYINT(1)  NULL ,
   `renda_familiar` FLOAT NULL ,
   `renda_percapta` FLOAT NULL ,
-  `status` TINYINT(1)  NOT NULL ,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
@@ -123,7 +126,7 @@ DROP TABLE IF EXISTS `cestas` ;
 
 CREATE  TABLE IF NOT EXISTS `cestas` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `familia_id` INT NOT NULL ,
+  `familia_id` INT NULL ,
   `data_gerada` DATETIME NOT NULL ,
   `data_saida` DATE NULL ,
   PRIMARY KEY (`id`) ,
