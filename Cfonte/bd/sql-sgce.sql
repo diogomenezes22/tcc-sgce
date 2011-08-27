@@ -77,15 +77,15 @@ DROP TABLE IF EXISTS `estoques` ;
 
 CREATE  TABLE IF NOT EXISTS `estoques` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `mantimento_id` INT NOT NULL ,
+  `definicoescestas_id` INT NOT NULL ,
   `complemento_qt` INT NOT NULL ,
   `data_entrada` DATE NOT NULL ,
   `data_vencimento` DATE NOT NULL ,
   `data_saida` DATE NOT NULL ,
   PRIMARY KEY (`id`) ,
-  INDEX `fk_estoques_mantimentos1` (`mantimento_id` ASC) ,
-  CONSTRAINT `fk_estoques_mantimentos1`
-    FOREIGN KEY (`mantimento_id` )
+  INDEX `fk_estoques_definicoescestas1` (`definicoescestas_id` ASC) ,
+  CONSTRAINT `fk_estoques_definicoescestas1`
+    FOREIGN KEY (`definicoescestas_id` )
     REFERENCES `definicoescestas` (`id` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
@@ -102,7 +102,6 @@ DROP TABLE IF EXISTS `familias` ;
 CREATE  TABLE IF NOT EXISTS `familias` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `status` TINYINT(1)  NOT NULL ,
-  `cidade` VARCHAR(50) NOT NULL ,
   `endereco` VARCHAR(100) NOT NULL ,
   `numero` VARCHAR(7) NOT NULL ,
   `complemento` VARCHAR(7) NULL ,
