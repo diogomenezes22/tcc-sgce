@@ -105,7 +105,7 @@ CREATE  TABLE IF NOT EXISTS `familias` (
   `endereco` VARCHAR(100) NOT NULL ,
   `numero` VARCHAR(7) NOT NULL ,
   `complemento` VARCHAR(7) NULL ,
-  `bairro` VARCHAR(20) NOT NULL ,
+  `bairro` VARCHAR(40) NOT NULL ,
   `referencia` VARCHAR(100) NULL ,
   `telefone` VARCHAR(13) NULL ,
   `renda_familiar` FLOAT NULL ,
