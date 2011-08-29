@@ -3,6 +3,12 @@
 *todos os relatorios de todos os casos
 *cad/alt/cons FREQ FAMILIA
 
+[28/08/2011] diagramas de seq q terá que revisar posteriormente
+
+*todos os relatorios de todos os casos
+*cad/alt/cons FREQ FAMILIA
+
+>>>>>> CONFERIR NUMERAÇÃO DE QUADROS E TABELAS <<<<<<<<<<<<
 
 ------------------------------------------------------------------------
 Páginas a alterar: 7, 8, 12, 33, 36, 134, 136, 137, 139, 140, 141, 142, 143, 144, 145, 146, 147
