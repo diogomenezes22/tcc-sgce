@@ -1,0 +1,33 @@
+*O que falta para terminar o SGCE*
+----------------------------------
+
+1) Link de recuperar senha na tela de login;
+
+2) Remover campo "Cidade" do cadastro de "família";
+
+2.1) Falta acrescentar os seguintes campos no cadastro de "família",os quais são puchados de Pessoas:
+	- Nome Representante;
+	- Data de Nascimento;
+	- Escolaridade;
+	- Profissão;
+	- Ocupação;
+	- Está trabalhando?(Sim/Não); Se "Sim", local:____
+	- Situação conjugal- Companheiro(a)?(Sim/Não)
+	- Nome do Compnaheiro;
+	- Escolaridade;
+	- Profissão;
+	- Ocupação;
+	- Está trabalhando?(Sim/Não); Se "Sim", local:____
+	- Benefícios?(Sim/Não)
+	- O Compnaheiro(a) é pai ou mãe da(s) criança(s)?(Sim/Não)
+	- Observação.
+
+3) Criar um cadastro para "Pessoas";
+	Pensei em uma coisa, ao invéz de ter um cadastro de pessoas, tem só um cadastro de família e um de questionário.
+	Sendo que a pessoa fica sendo uma classe que família pucha tudo dela.
+
+4) No questionário, o boleano, mudar para aparecer um select com SIM/Não
+
+5) o ACL não está funcionando direito depois que cadastrei mais grupos.
+
+6) Cadastrar e consultar frequencia das famílias(Não está implementado)
