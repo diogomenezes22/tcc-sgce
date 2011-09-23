@@ -3,9 +3,15 @@
 
 1) Link de recuperar senha na tela de login;
 
-2) Remover campo "Cidade" do cadastro de "família";
+2) no cadastro de usuarios a mascara dos TEL tao cortando o ultimo n°
 
-2.1) Falta acrescentar os seguintes campos no cadastro de "família",os quais são puchados de Pessoas:
+3) fiz(Rafael) meu cadastro mais n loga de jeito nenhum.
+
+4) no menu de consulta> definicao cesta o nome que aparece está junto "definicaocesta" ta ruim pra ler
+
+5) Remover campo "Cidade" do cadastro de "família";
+
+5.1) Falta acrescentar os seguintes campos no cadastro de "família",os quais são puchados de Pessoas:
 	- Nome Representante;
 	- Data de Nascimento;
 	- Escolaridade;
@@ -22,12 +28,16 @@
 	- O Compnaheiro(a) é pai ou mãe da(s) criança(s)?(Sim/Não)
 	- Observação.
 
-3) Criar um cadastro para "Pessoas";
+6) Criar um cadastro para "Pessoas";
 	Pensei em uma coisa, ao invéz de ter um cadastro de pessoas, tem só um cadastro de família e um de questionário.
 	Sendo que a pessoa fica sendo uma classe que família pucha tudo dela.
 
-4) No questionário, o boleano, mudar para aparecer um select com SIM/Não
+7) No questionário, o boleano, mudar para aparecer um select com SIM/Não
 
-5) o ACL não está funcionando direito depois que cadastrei mais grupos.
+8) o ACL não está funcionando direito depois que cadastrei mais grupos.
 
-6) Cadastrar e consultar frequencia das famílias(Não está implementado)
+9) Cadastrar e consultar frequencia das famílias(Não está implementado)
+
+10) inseri definicao cesta, cadastrei estoque mais n consegui gerar cestas disponiveis nem no submenu CESTAS nem no relatorio de cesta (pagina fica carregando e nada)
+
+11) na consulta de familia nao consegui EDITAR
