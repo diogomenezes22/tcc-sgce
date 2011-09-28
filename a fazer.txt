@@ -1,115 +1,35 @@
-﻿[24/08/2011]CASOS DE USO QUE FALTAM SER REVISADOS
+﻿CORRECOES TCC AGOSTO:
 
-*todos os relatorios de todos os casos
-*cad/alt/cons FREQ FAMILIA
+1)Acompanhamento das versoes:
+ - mudar nome do penultimo item onde é "inicio do desenvolvimento do sistema"
 
-[28/08/2011] diagramas de seq q terá que revisar posteriormente
+2)Revisar casos de uso nao alterados para apresentacao de agosto:
+- rel venc mantimento estoque
+- rel cestas disponiveis
+- rel itens pendentes das cestas
+- cadastrar freq familia
+- alterar freq familia
+- rel vencim matricula
+- rel familias aptas
+- rel voluntario
 
-*todos os relatorios de todos os casos
-*cad/alt/cons FREQ FAMILIA
+3)Revisar diag de seq de todos do 2° desta lista
 
->>>>>> CONFERIR NUMERAÇÃO DE QUADROS E TABELAS <<<<<<<<<<<<
+4)Cap 5
+- pag 172 2 marcacoes do furtuna
+- pag 173 marcacoes no item 5.2.1
+- pag 174 marcacoes item 5.2.2 e 5.2.3
+- pag 175 1 marcacao
+- pag 192 1 marcacao
+- pag 194 1 marcacao
+- pag 197 1 marcacao
+- pag 203 1 marcacao item 8.4 3°MONITORAMENTO
+- pag 204 2 marcacoes
+- pag 205 faltou coluna de projecao OU explicacao para saber se esta dentro do esperado
+- pag 206 3 marcacoes bobas
+- pag 207 3 marcacoes
+- 
 
-------------------------------------------------------------------------
-Páginas a alterar: 7, 8, 12, 33, 36, 134, 136, 137, 139, 140, 141, 142, 143, 144, 145, 146, 147
-
-﻿CAP 3
-
-- Requisitos do cliente - OK
-- Requisitos do software
-- Fronteiras do software - OK
-- Itens de software - OK
-- Lista de requisitos não funcionais - OK
-- Requisitos funcionais - OK
-- Esquema dos atores - OK
-- Descrição de casos de uso - OK
-- Modelos de casos de uso - OK
-- Especificação de caso de uso - OK
-- Requisitos de dados - OK
-- Modelo Conceitual de Dados - OK
-- Entidades e Atributos - OK
-- Melhoramentos Previstos - OK
-
-REVISÕES
-- Revisão de estimativas - OK
-- Considerações preliminares - OK
-- Estimativa de tamanho de Software - OK
-- Estimativa de esforço - OK
-- Estimativa de prazo - OK
-- Cronograma revisado - OK
-- Revisão dos custos estimados - OK
-- Considerações finais sobre a revisão de estimativas - OK
-- Monitoramento e Controle - OK
-
---------------------------------------------------------------
-Cap 2  
-
-
-- Escopo - (Tales) OK
-- Plano de processo de desenvolvimento - (Tales) OK
-- Metodologia de desenvolvimento - (Tales) OK
-- Estrutura analitica - (Rafael) OK, *(Terminado por Tales)
-- Estimativa de tamanho, esforço e prazo (Rafael) OK
-- Plano de organização - (Tales) OK
-- Plano de monitoramento e controle - (Tales) OK
-- Cronograma (Rafael) OK
-- Plano de recursos humanos (Tales) OK
-- Plano de recusrsos gerais - (Tales) OK
-- Plano de custos (Rafael) OK
-- Plano de testes - (Tales) OK
-- Plano de treinamento (Tales) OK
-- Plano de implantação (Tales) OK
-==============================================================
-
-
-Arrumar:
-- item 1.1 ultima linha
-- pag 30 (legenda do quadro)
-
-- como foi calculado no FPA que trabalharemos 3 horas por dia durante 3 dias na semana(4,5 semanas=1 mes), ENTAO no custo com mão de obra tem que mudar pois o calculo atual esta feito por MES.
-	MUDAR ESTE CÁLCULO PARA HORAS. Diminuindo o custo do software.
-------------------------------------------------
-consertos realizados:
-pag 7 : quadro14) nome errado -> consertado.
-
-pag 16: palavra ChromE estava sem o "E" -> consertado
-
-pag 17: gerencia sem o circunflexo -> consertado
-	propuser -> trocado para propuserem
-	"teve um concesso" -> tivemos um consenso
-	integra -> íntegra
-
-pag 18: "seve" -> serve
-	"estar fazendo" -> fazer
-
-pag24: adicionado pequeno texto fazendo referencia aos quadros anexados no fim do capitulo utilizados nos calculos do FPA.
-
-pag 31: construindo -> construÍDO
-
-pag 32: erronia -> errônea
-
-pag 34: estar -> está
-
-pag 39: referencia no texto errada referenciando quadro 10 ao invez do quadro 11 -> arrumado!
-
-pag 40: erro de referencia-> arrumado onde era quadro 11 passa pra quadro 12
-
-	erro de referencia-> arrumado onde era quadro 7 passa pra quadro 8
-
-pag 41: "o quadro 13" -> o quadro 14
-
-pag 42: "funcionou corretamento" -> corretamentE
-	"minimizar o máximo com o aparecimento de defeitos"-> ao máximo o aparecimento
-
-pag 43: repeticao da palavra componente -> arrumado!
-	"Atécnica" -> falta de espaço arrumado!
-	falta de plural na palavra "incumbido" e "repassar" -> arrumado!
-	precisaram -> trocado para precisarEm ARRUMADO
-	
-pag 44: "de forma que o esse ...." -> de forma que o mesmo.
-	
-pag 46: "que poderiam estar a ser adquiridos" -> "poderiam ser adquiridos"
-	"ferramentas livres nao possuir" -> possuirem
 ----------------------------------------------------------------------------------------
 PROCESSO DE TESTES
 
