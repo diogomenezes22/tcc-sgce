@@ -16,19 +16,19 @@
 3)Revisar diag de seq de todos do 2° desta lista
 
 4)Cap 5
-- pag 172 2 marcacoes do furtuna
-- pag 173 marcacoes no item 5.2.1
-- pag 174 marcacoes item 5.2.2 e 5.2.3
-- pag 175 1 marcacao
-- pag 192 1 marcacao
-- pag 194 1 marcacao
-- pag 197 1 marcacao
-- pag 203 1 marcacao item 8.4 3°MONITORAMENTO
-- pag 204 2 marcacoes
-- pag 205 faltou coluna de projecao OU explicacao para saber se esta dentro do esperado
-- pag 206 3 marcacoes bobas
-- pag 207 3 marcacoes
-- 
+- pag 172 2 marcacoes do furtuna 5.1 e 5.2
+- pag 173 marcacoes 5.2.1
+- pag 174 marcacoes 5.2.2 e 5.2.3
+- pag 175 1 marcacao 5.2.3
+- pag 191 palavra "um enfoque" 5.5
+- pag 192 1 marcacao 5.6
+- pag 194 1 marcacao 7.2
+- pag 197 1 marcacao 7.4
+ok- pag 203 1 marcacao item 8.4 3°MONITORAMENTO
+- pag 204 2 marcacoes TABELA 8.4.1
+- pag 205 faltou coluna de projecao OU explicacao para saber se esta dentro do esperado TABELA 8.4.3
+- pag 206 3 marcacoes bobas CAP9
+- pag 207 3 marcacoes FIM CAP 9
 
 ----------------------------------------------------------------------------------------
 PROCESSO DE TESTES
