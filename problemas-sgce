@@ -1,0 +1,61 @@
+*ESTÃO OK*
+----------
+- Voluntário
+    * Cadastro e exclusão - OK
+    * Na visualização dos voluntários, o último dígito do TELEFONE e CELULAR
+    não estão aparecendo e ao editar, os n°s já digitados somem - OK
+
+-Grupo
+    * Cadastrar, editar e excluir - OK
+
+- Usuário
+    * Cadastro e esclusão - OK
+    * Na visualização dos usuários, o último dígito do TELEFONE e CELULAR
+    não estão aparecendo - OK
+    * Quando clico em editar um usuário, o telefone e celular não aparecem
+	mesma coisa que no voluntários - OK
+
+- Companheiro e Dependente
+	* Cadastro, edição e esclusão - OK
+
+- Questionário
+    * Cadastrar, editar, excluir - OK
+
+- Cadastro Dependente
+    *campo escolaridade nao tem lista rapida(pra escolher) conforme cad familia - OK
+    
+- Cadastro Companheiro
+    *campo escolaridade nao tem lista rapida(pra escolher) conforme cad familia - OK
+
+- Familia
+    * Telefone também não aparece, mesma coisa dos outros - OK
+
+*ESTÃO COM PROBLEMA*
+--------------------
+- Estoque
+    *gerar cesta n funcionando;
+
+- Familia
+    * Não está gravando a data de nascimento;
+    * Renda familiar e per capita estão aparecendo com valores diferentes dos
+	incluidos;
+    * Questionário não está funcionando para a familia.
+
+- Cesta
+	* Gerar cesta não funciona
+
+- Log
+	* Não está gravando log de nada
+
+*ESTÃO FALTANDO*
+----------------
+- Login
+- Permissões
+- Relatórios
+- Frequencia
+	* Se a família tiver com 3 faltas, ela muda a situação para "Não apta" e
+	não recebe a cesta.
+- Cesta
+	* Aparecer um campo, por exemplo select com o nome da família para poder
+	associar uma cesta para ela e dar baixa no numero de cestas.
+	* Como vc mesmo disse, faltaterminar essa parte.

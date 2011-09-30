@@ -3,13 +3,9 @@
 
 1) Link de recuperar senha na tela de login;
 
-2) no cadastro de usuarios a mascara dos TEL tao cortando o ultimo n°
+2) na consulta de usuarios a mascara dos TEL tao cortando o ultimo n°
 
-3) fiz(Rafael) meu cadastro mais n loga de jeito nenhum.
-
-4) no menu de consulta> definicao cesta o nome que aparece está junto "definicaocesta" ta ruim pra ler
-
-5) Remover campo "Cidade" do cadastro de "família";
+3) fiz(Rafael) meu cadastro mais n loga de jeito nenhum. (Acho que resolveuvendo o ACL, isso funciona, depois que adicionei os grupos direto no banco, tah dando pau e nao atualiza as definições)
 
 5.1) Falta acrescentar os seguintes campos no cadastro de "família",os quais são puchados de Pessoas:
 	- Nome Representante;
