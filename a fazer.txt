@@ -24,10 +24,10 @@
 - pag 192 1 marcacao 5.6-Obs Complement
 - pag 194 1 marcacao 7.2-Prog Desenvolvidos
 - pag 197 1 marcacao 7.4-Obs Complementares
-- pag 201 RAFAEL 3 MARCACOES fim quadro48 2°monitoramento
+ok- pag 201 RAFAEL 3 MARCACOES fim quadro48 2°monitoramento
 OK- pag 203 marcacao item 8.4 3°MONITORAMENTO
-- pag 204 marcacoes 8.4.1 fim quadro50 3°monitoramento 
-- pag 205 marcacoes 8.4.3 fim quadro51 3°monitoramento
+ok- pag 204 marcacoes 8.4.1 fim quadro50 3°monitoramento 
+ok- pag 205 marcacoes 8.4.3 fim quadro51 3°monitoramento
 - pag 206 3 marcacoes bobas CAP9 Consideracoes finais
 - pag 207 3 marcacoes FIM CAP 9 Consideracoes finais
 
