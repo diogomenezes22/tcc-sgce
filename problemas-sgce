@@ -41,6 +41,14 @@
 	incluidos;
     * Questionário não está funcionando para a familia.
 
+- Companheiro
+	* Escolaridade não está aparecendo o select
+
+- Dependente
+	* Renda está aparecendo com valores diferentes dos incluidos;
+	* Escolaridade não está aparecendo o select
+
+
 - Cesta
 	* Gerar cesta não funciona
 
