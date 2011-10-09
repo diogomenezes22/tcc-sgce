@@ -22,48 +22,61 @@
     * Cadastrar, editar, excluir - OK
 
 - Cadastro Dependente
-    *campo escolaridade nao tem lista rapida(pra escolher) conforme cad familia - OK
+    * Campo escolaridade nao tem lista rapida(pra escolher) conforme cad familia - OK
+	* Data cadastrando, editando - OK
     
 - Cadastro Companheiro
     *campo escolaridade nao tem lista rapida(pra escolher) conforme cad familia - OK
 
 - Familia
     * Telefone também não aparece, mesma coisa dos outros - OK
+    * Não está gravando a data de nascimento - OK
+    * Renda familiar e per capita estão aparecendo com valores diferentes dos incluidos - OK
+    * Questionário não está funcionando para a familia - OK
+	* data da família está incorreta granvando de forma incorreta e na edição e consulta aparece errada - OK
+	* Na opção "editar" em Família, todos os campos de renda não estão mantendo o valor cadastrado, ao editar os valores já não são os mesmos - OK
+	* Na consulta de família, a data está sendo informada de forma errada, assim como as Rendas familiar e per capita - OK
+
+- Companheiro
+	* Escolaridade não está aparecendo o select - OK
+
+- Dependente
+	* Renda está aparecendo com valores diferentes dos incluidos - OK
+	* Escolaridade não está aparecendo o select - OK
+	* Erro ao Excluir Dependente - OK
+	* No dependente, o campo "renda" está sendo salvo de maneira correta, porem, quando clica em editar, o mesmo aparece com valor errado - OK
+	* O parentesco de dependente não está aparecendo para selecionar as opções - OK
+
+- Log
+	* Não está gravando log de nada - OK
+
+- Login - OK
 
 *ESTÃO COM PROBLEMA*
 --------------------
-- Estoque
-    *gerar cesta n funcionando;
 
-- Familia
-    * Não está gravando a data de nascimento;
-    * Renda familiar e per capita estão aparecendo com valores diferentes dos
-	incluidos;
-    * Questionário não está funcionando para a familia.
+1) Erro ao Cadastrar e Excluir Companheiro
 
-- Companheiro
-	* Escolaridade não está aparecendo o select
+2) Cadastrar família não está salvando a renda "per capita" corretamente e ao editar, as 2 reandas estão aparecendo com valores errados.
+3) Ao editar família, não volta para a tela principal das famílias cadastradas
+4) Altura em Dependente não está aceitando cadastrar com vírgula
 
-- Dependente
-	* Renda está aparecendo com valores diferentes dos incluidos;
-	* Escolaridade não está aparecendo o select
-
-
-- Cesta
-	* Gerar cesta não funciona
-
-- Log
-	* Não está gravando log de nada
+5) As ação em conjunto não estão funcionando, se marcar vários e excluir, por exemplo, não funciona.
+6) As permissoes estão com problemas, não estao carregando.
 
 *ESTÃO FALTANDO*
 ----------------
-- Login
-- Permissões
 - Relatórios
 - Frequencia
 	* Se a família tiver com 3 faltas, ela muda a situação para "Não apta" e
 	não recebe a cesta.
 - Cesta
-	* Aparecer um campo, por exemplo select com o nome da família para poder
-	associar uma cesta para ela e dar baixa no numero de cestas.
-	* Como vc mesmo disse, faltaterminar essa parte.
+
+
+*A PARTE*
+---------
+
+- Colocar 2 campos, um de linha contínua e um de linha tracejado para ser cadastrado no questionáios
+
+
+
