@@ -16,27 +16,23 @@
 3)Revisar diag de seq de todos do 2° desta lista
 
 4)Cap 5
-- pag 172 2 marcacoes do furtuna 5.1-Cons Iniciais e 5.2-Arq SW
-- pag 173 marcacoes 5.2.1-framew cakephp
-- pag 174 marcacoes 5.2.2-MVC e 5.2.3-Ajax
-- pag 175 1 marcacao 5.2.3- Ajax
-- pag 191 palavra "um enfoque" 5.5-Detalhes Procedimentais
-- pag 192 1 marcacao 5.6-Obs Complement
-- pag 194 1 marcacao 7.2-Prog Desenvolvidos
-- pag 197 1 marcacao 7.4-Obs Complementares
-ok- pag 201 RAFAEL 3 MARCACOES fim quadro48 2°monitoramento
+OK - pag 172 2 marcacoes do furtuna 5.1-Cons Iniciais e 5.2-Arq SW
+OK - pag 173 marcacoes 5.2.1-framew cakephp
+OK - pag 174 marcacoes 5.2.2-MVC e 5.2.3-Ajax
+OK - pag 175 1 marcacao 5.2.3- Ajax
+OK - pag 191 palavra "um enfoque" 5.5-Detalhes Procedimentais
+OK - pag 192 1 marcacao 5.6-Obs Complement
+OK - pag 194 1 marcacao 7.2-Prog Desenvolvidos
+OK - pag 197 1 marcacao 7.4-Obs Complementares
+OK - pag 201 RAFAEL 3 MARCACOES fim quadro48 2°monitoramento
 OK- pag 203 marcacao item 8.4 3°MONITORAMENTO
-ok- pag 204 marcacoes 8.4.1 fim quadro50 3°monitoramento 
-ok- pag 205 marcacoes 8.4.3 fim quadro51 3°monitoramento
+OK - pag 204 marcacoes 8.4.1 fim quadro50 3°monitoramento 
+OK - pag 205 marcacoes 8.4.3 fim quadro51 3°monitoramento
 - pag 206 3 marcacoes bobas CAP9 Consideracoes finais
 - pag 207 3 marcacoes FIM CAP 9 Consideracoes finais
 
 ----------------------------------------------------------------------------------------
-PROCESSO DE TESTES
 
-Cadastrar usuário:
-
-Campo Situação(status) por default fica como ativo e após salvar o cadastro, o usuario está como inativo.
 
 	
 
