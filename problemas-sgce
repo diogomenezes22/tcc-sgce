@@ -36,6 +36,7 @@
 	* data da família está incorreta granvando de forma incorreta e na edição e consulta aparece errada - OK
 	* Na opção "editar" em Família, todos os campos de renda não estão mantendo o valor cadastrado, ao editar os valores já não são os mesmos - OK
 	* Na consulta de família, a data está sendo informada de forma errada, assim como as Rendas familiar e per capita - OK
+	* Ao editar família, não volta para a tela principal das famílias cadastradas - OK
 
 - Companheiro
 	* Escolaridade não está aparecendo o select - OK
@@ -54,29 +55,21 @@
 
 *ESTÃO COM PROBLEMA*
 --------------------
-
 1) Erro ao Cadastrar e Excluir Companheiro
 
-2) Cadastrar família não está salvando a renda "per capita" corretamente e ao editar, as 2 reandas estão aparecendo com valores errados.
-3) Ao editar família, não volta para a tela principal das famílias cadastradas
-4) Altura em Dependente não está aceitando cadastrar com vírgula
+2) Cadastrar família não está salvando a renda "per capita" corretamente e ao editar, as 2 rendas estão aparecendo com valores errados.
+3) Altura em Dependente não está aceitando cadastrar com vírgula.
 
-5) As ação em conjunto não estão funcionando, se marcar vários e excluir, por exemplo, não funciona.
-6) As permissoes estão com problemas, não estao carregando.
+4) As ação em conjunto não estão funcionando, se marcar vários e excluir, por exemplo, não funciona.
+5) As permissoes estão com problemas, não estao carregando.
 
 *ESTÃO FALTANDO*
 ----------------
-- Relatórios
-- Frequencia
+1) Cesta (Falta terminar e esse é o mais importante de todos)
+2) Frequencia
 	* Se a família tiver com 3 faltas, ela muda a situação para "Não apta" e
 	não recebe a cesta.
-- Cesta
-
-
-*A PARTE*
----------
-
-- Colocar 2 campos, um de linha contínua e um de linha tracejado para ser cadastrado no questionáios
+3) Relatórios (Eu já criei as views mais ou menos, mas se tiver um pronto e me explicar acho que posso conseguir fazer o resto)
 
 
 
