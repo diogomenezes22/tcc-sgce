@@ -37,9 +37,11 @@
 	* Na opção "editar" em Família, todos os campos de renda não estão mantendo o valor cadastrado, ao editar os valores já não são os mesmos - OK
 	* Na consulta de família, a data está sendo informada de forma errada, assim como as Rendas familiar e per capita - OK
 	* Ao editar família, não volta para a tela principal das famílias cadastradas - OK
+	* Cadastrar família não está salvando a renda "per capita" corretamente e ao editar, as 2 rendas estão aparecendo com valores errados - OK
 
 - Companheiro
 	* Escolaridade não está aparecendo o select - OK
+	* Erro ao Cadastrar e Excluir Companheiro - OK
 
 - Dependente
 	* Renda está aparecendo com valores diferentes dos incluidos - OK
@@ -47,21 +49,18 @@
 	* Erro ao Excluir Dependente - OK
 	* No dependente, o campo "renda" está sendo salvo de maneira correta, porem, quando clica em editar, o mesmo aparece com valor errado - OK
 	* O parentesco de dependente não está aparecendo para selecionar as opções - OK
+	* Altura em Dependente não está aceitando cadastrar com vírgula - OK
 
 - Log
 	* Não está gravando log de nada - OK
 
 - Login - OK
 
+	As ação em conjunto não estão funcionando, se marcar vários e excluir, por exemplo, não funciona - OK
+
 *ESTÃO COM PROBLEMA*
 --------------------
-1) Erro ao Cadastrar e Excluir Companheiro
-
-2) Cadastrar família não está salvando a renda "per capita" corretamente e ao editar, as 2 rendas estão aparecendo com valores errados.
-3) Altura em Dependente não está aceitando cadastrar com vírgula.
-
-4) As ação em conjunto não estão funcionando, se marcar vários e excluir, por exemplo, não funciona.
-5) As permissoes estão com problemas, não estao carregando.
+1) As permissoes estão com problemas, não estao carregando.
 
 *ESTÃO FALTANDO*
 ----------------
