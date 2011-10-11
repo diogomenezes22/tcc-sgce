@@ -7,53 +7,54 @@ Figura 4 – Cronograma de atividades
 Figura 5 – Gráfico de Gantt
 Figura 6 – Mapa de atores
 Figura 7 – Diagrama Usuário
-Figura 8 – Diagrama Usuário (Perfil Coordenador)
-Figura 9 – Diagrama Usuário (Perfil Estoquista)
-Figura 10 – Caso de uso família
-Figura 11 – Caso de uso mantimento
-Figura 12 – Caso de uso Usuário
-Figura 13 – Caso de uso voluntário
-Figura 14 – Caso de uso Log
-Figura 15 – Moledo conceitual de dados (DER)
-Figura 16 – Novo cronograma de atividades
-Figura 17 – Novo Gráfico de Gantt
-Figura 18 – Diagrama de Classe
-Figura 19 – Diagrama de Sequencia: Cadastrar Usuário
-Figura 20 – Diagrama de Sequencia: Alterar Usuário
-Figura 21 – Diagrama de Sequencia: Excluir Usuário
-Figura 22 – Diagrama de Sequencia: Consultar Usuário
-Figura 23 – Diagrama de Sequencia: Incluir Estoque
-Figura 24 – Diagrama de Sequencia: Alterar Estoque
-Figura 25 – Diagrama de Sequencia: Excluir Estoque
-Figura 26 – Diagrama de Sequencia: Consultar Estoque
-Figura 27 – Diagrama de Sequencia: Relatório de Vencimentos Estoque
-Figura 28 – Diagrama de Sequencia: Relatório de Cestas Disponíveis
-Figura 29 – Diagrama de Sequencia: Relatório de Itens Pendentes na Cesta
-Figura 30 – Diagrama de Sequencia: Cadastro Definição Cesta
-Figura 31 – Diagrama de Sequencia: Alterar Definição Cesta
-Figura 32 – Diagrama de Sequencia: Excluir Definição Cesta
-Figura 33 – Diagrama de Sequencia: Consultar Definição Cesta
-Figura 34 – Diagrama de Sequencia: Cadastrar Família
-Figura 35 – Diagrama de Sequencia: Cadastrar Frequência de Família
-Figura 36 – Diagrama de Sequencia: Alterar Família
-Figura 37 – Diagrama de Sequencia: Alterar Frequência Família
-Figura 38 – Diagrama de Sequencia: Excluir Família
-Figura 39 – Diagrama de Sequencia: Consultar Família
-Figura 40 – Diagrama de Sequencia: Consultar Frequência Família
-Figura 41 – Diagrama de Sequencia: Relatório Vencimento Matrícula
-Figura 42 – Diagrama de Sequencia: Relatório Família Apta
-Figura 43 – Diagrama de Sequencia: Efetuar Login
-Figura 44 – Diagrama de Sequencia: Recuperar Senha
-Figura 45 – Diagrama de Sequencia: Armazenar Log Sistema
-Figura 46 – Diagrama de Sequencia: Consultar Voluntário
-Figura 47 – Diagrama de Sequencia: Cadastrar Voluntário
-Figura 48 – Diagrama de Sequencia: Alterar Voluntário
-Figura 49 – Diagrama de Sequencia: Excluir  Voluntário
-Figura 50 – Diagrama de Sequencia: Consultar Voluntário
-Figura 51 – Diagrama de Sequencia: Relatório Voluntário
-Figura 52 – DTR
-Figura 53 – Requisição básica de MVC
-
+Figura 8 – Diagrama Usuário (Perfil Administrador)
+Figura 9 – Diagrama Usuário (Perfil Coordenador)
+Figura 10 – Diagrama Usuário (Perfil Estoquista)
+Figura 11 – Caso de uso Família
+Figura 12 – Caso de uso Estoque
+Figura 13 – Caso de uso Usuário
+Figura 14 – Caso de uso Definição Cesta
+Figura 15 – Caso de uso Voluntário
+Figura 16 – Caso de uso Log
+Figura 17 – Moledo conceitual de dados (DER)
+Figura 18 – Novo cronograma de atividades
+Figura 19 – Novo Gráfico de Gantt
+Figura 20 – Diagrama de Classe
+Figura 21 – Diagrama de Sequencia: Cadastrar Usuário
+Figura 22 – Diagrama de Sequencia: Alterar Usuário
+Figura 23 – Diagrama de Sequencia: Excluir Usuário
+Figura 24 – Diagrama de Sequencia: Consultar Usuário
+Figura 25 – Diagrama de Sequencia: Incluir Estoque
+Figura 26 – Diagrama de Sequencia: Alterar Estoque
+Figura 27 – Diagrama de Sequencia: Excluir Estoque
+Figura 28 – Diagrama de Sequencia: Consultar Estoque
+Figura 29 – Diagrama de Sequencia: Relatório de Vencimentos Estoque
+Figura 30 – Diagrama de Sequencia: Relatório de Cestas Disponíveis
+Figura 31 – Diagrama de Sequencia: Relatório de Itens Pendentes na Cesta
+Figura 32 – Diagrama de Sequencia: Cadastro Definição Cesta
+Figura 33 – Diagrama de Sequencia: Alterar Definição Cesta
+Figura 34 – Diagrama de Sequencia: Excluir Definição Cesta
+Figura 35 – Diagrama de Sequencia: Consultar Definição Cesta
+Figura 36 – Diagrama de Sequencia: Cadastrar Família
+Figura 37 – Diagrama de Sequencia: Cadastrar Frequência de Família
+Figura 38 – Diagrama de Sequencia: Alterar Família
+Figura 39 – Diagrama de Sequencia: Alterar Frequência Família
+Figura 40 – Diagrama de Sequencia: Excluir Família
+Figura 41 – Diagrama de Sequencia: Consultar Família
+Figura 42 – Diagrama de Sequencia: Consultar Frequência Família
+Figura 43 – Diagrama de Sequencia: Relatório Vencimento Matrícula
+Figura 44 – Diagrama de Sequencia: Relatório Família Apta
+Figura 45 – Diagrama de Sequencia: Efetuar Login
+Figura 46 – Diagrama de Sequencia: Recuperar Senha
+Figura 47 – Diagrama de Sequencia: Armazenar Log Sistema
+Figura 48 – Diagrama de Sequencia: Consultar Voluntário
+Figura 49 – Diagrama de Sequencia: Cadastrar Voluntário
+Figura 50 – Diagrama de Sequencia: Alterar Voluntário
+Figura 51 – Diagrama de Sequencia: Excluir Voluntário
+Figura 52 – Diagrama de Sequencia: Consultar Voluntário
+Figura 53 – Diagrama de Sequencia: Relatório Voluntário
+Figura 54 – DTR
+Figura 55 – Requisição básica de MVC
 
 
 ------
@@ -91,28 +92,32 @@ Quadro 30 – Modelo de Classe UML
 Quadro 31 – Simbologia de explicação do diagrama de sequencia
 Quadro 32 – estrutura de dados da tabela logs
 Quadro 33 – estrutura de dados da tabela usuarios
-Quadro 34 – estrutura de dados da tabela voluntarios
-Quadro 35 – estrutura de dados da tabela definicoescestas
-Quadro 36 – estrutura de dados da tabela estoques
-Quadro 37 – estrutura de dados da tabela cestas_estoques
-Quadro 38 – estrutura de dados da tabela cestas
-Quadro 39 – estrutura de dados da tabela frequencias
-Quadro 40 – estrutura de dados da tabela familias
-Quadro 41 – estrutura de dados da tabela pessoas
-Quadro 42 – estrutura de dados da tabela respostas
-Quadro 43 – estrutura de dados da tabela questionarios
-Quadro 44 – Funcionalidades implementadas
-Quadro 45 – Programas desenvolvidos
+Quadro 34 – estrutura de dados da tabela grupos
+Quadro 35 – estrutura de dados da tabela voluntarios
+Quadro 36 – estrutura de dados da tabela definicoescestas
+Quadro 37 – estrutura de dados da tabela estoques
+Quadro 38 – estrutura de dados da tabela cestas_estoques
+Quadro 39 – estrutura de dados da tabela cestas
+Quadro 40 – estrutura de dados da tabela frequencias
+Quadro 41 – estrutura de dados da tabela familias
+Quadro 42 – estrutura de dados da tabela questionarios
+Quadro 43 – estrutura de dados da tabela respostas
+Quadro 44 – estrutura de dados da tabela acos
+Quadro 45 – estrutura de dados da tabela aros_acos
+Quadro 46 – estrutura de dados da tabela aros
+Quadro 47 – Funcionalidades implementadas
+Quadro 48 – Programas desenvolvidos
+Quadro 49 – Resumo dos testes
 ---
-Quadro 46 – Prazo do Primeiro Monitoramento e Controle
-Quadro 47 – Custo do Primeiro Monitoramento e Controle
-Quadro 48 – Prazo do Segundo Monitoramento e Controle
-Quadro 49 – Custo do Segundo Monitoramento e Controle
-Quadro 50 – Prazo do Segundo Monitoramento e Controle
-Quadro 51 – Custo do Segundo Monitoramento e Controle
-Quadro 52 – Tabela de Complexidade de Entrada
-Quadro 53 – Tabela de Complexidade de Saída
-Quadro 54 – Tabela de Complexidade ALI
-Quadro 55 – Tabela de Complexidade AIE
-Quadro 56 – Tabela de Complexidade de Consulta
-Quadro 57 – Tabela de pesos para FPA
+Quadro 50 – Prazo do Primeiro Monitoramento e Controle
+Quadro 51 – Custo do Primeiro Monitoramento e Controle
+Quadro 52 – Prazo do Segundo Monitoramento e Controle
+Quadro 53 – Custo do Segundo Monitoramento e Controle
+Quadro 54 – Prazo do Terceiro Monitoramento e Controle
+Quadro 55 – Custo do Terceiro Monitoramento e Controle
+Quadro 56 – Tabela de Complexidade de Entrada
+Quadro 57 – Tabela de Complexidade de Saída
+Quadro 58 – Tabela de Complexidade ALI
+Quadro 59 – Tabela de Complexidade AIE
+Quadro 60 – Tabela de Complexidade de Consulta
+Quadro 61 – Tabela de pesos para FPA
