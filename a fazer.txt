@@ -33,6 +33,14 @@ OK - pag 205 marcacoes 8.4.3 fim quadro51 3°monitoramento
 
 ----------------------------------------------------------------------------------------
 
+ULTIMOS ERROS ACHADOS:
 
+OK-pag 67 do odt na fig 9 trocar onde tem MANTIMENTO para ESTOQUE
+
+OK-pag 69 do odt na fig 11 trocar onde tem MANTIMENTO para ESTOQUE	
+
+OK-incluir casos de uso e diagramas (caso def.Cesta, UC e seq) para DEFINICAOCESTA?????
+
+OK-conferir numeracoes de fig, quadros e tabelas (ordem e etc)
 	
 
