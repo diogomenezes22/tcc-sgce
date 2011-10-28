@@ -10,10 +10,9 @@
 
 - Usuário
     * Cadastro e esclusão - OK
-    * Na visualização dos usuários, o último dígito do TELEFONE e CELULAR
-    não estão aparecendo - OK
-    * Quando clico em editar um usuário, o telefone e celular não aparecem
-	mesma coisa que no voluntários - OK
+    * Na visualização dos usuários, o último dígito do TELEFONE e CELULAR não estão aparecendo - OK
+    * Quando clico em editar um usuário, o telefone e celular não aparecem mesma coisa que no voluntários - OK
+	* Quando edita o usuário, a senha não é "salva", aparece um campo em branco, deveria aparecer a senha(os pontinhos, asteriscos) como nos outros dados - OK
 
 - Companheiro e Dependente
 	* Cadastro, edição e esclusão - OK
@@ -58,17 +57,72 @@
 
 	As ação em conjunto não estão funcionando, se marcar vários e excluir, por exemplo, não funciona - OK
 
+	As permissoes estão com problemas, não estao carregando - OK
+
+	Cesta (Falta terminar e esse é o mais importante de todos) - OK
+
+- Definições Cesta
+	* Excluir definições cesta, se tiver algum outro registro nao remove - OK
+	* Em definições cesta, não exclui em massa - OK
+
+- Frequencia
+	* Ao cadastrar a frequencia, está aparecendo pessoas da família(Aptas, Não Aptas, Companheiro e Dependente), é para aparecer apenas o responsável, ou seja, "APTAS". Por exemplo, de acordo com o banco atual, tem que aparecer Apenas a "Dona Florinda" (Isso de acordo com o meu banco) que é a única que está APTA - OK
+
+- Permissões - OK
+
+- Relatório
+	* 
+
+
 *ESTÃO COM PROBLEMA*
 --------------------
-1) As permissoes estão com problemas, não estao carregando.
+--------------------
+
 
 *ESTÃO FALTANDO*
 ----------------
-1) Cesta (Falta terminar e esse é o mais importante de todos)
-2) Frequencia
-	* Se a família tiver com 3 faltas, ela muda a situação para "Não apta" e
-	não recebe a cesta.
-3) Relatórios (Eu já criei as views mais ou menos, mas se tiver um pronto e me explicar acho que posso conseguir fazer o resto)
+1) Colocar um link de recuperar senha na tela de login
+2) Relatórios
 
 
+*ALGORITMO CORRETO DA CESTA*
+-----------------------------
+Primeiro (
+	- Ordena a lista de estoque por complemento_qt(decrescente)
+	- Logo em seguida ordena pela data de vencimento(crescente)
+)
 
+Segundo (
+	- Varre a lista até achar a quantidade desejada
+	- Se passar a quantidade, procura no próximo registro
+)
+
+Exemplo: 5 4 3 2 => 10
+
+5
+5 4
+5 4 3
+5 4 2
+5 3
+5 3 2
+
+
+-----------------------------
+X) O estoque não remove se tiver algum registro linkado com alguma coisa, por exemplo, se foi doada cesta.
+
+
+Implementação futura
+
+----------------------------------------------------
+Responsável Família							Código
+----------------------------------------------------
+	Tales Araujo					(Escoher código)
+	Adriano Moura					(Escoher código)
+	Bruna Mendonça					(Escoher código)
+	Bruno Gonçalves					(Escoher código)
+----------------------------------------------------
+Data -xx/xx/xxxxx
+
+------
+Salvar
+------
