@@ -1,4 +1,9 @@
-﻿CORRECOES TCC AGOSTO:
+﻿CORRECOES FINAIS:
+
+arrumar fig 18 pag 130 passar final da fase teste para idem da fase desenvolvimento;
+
+-------------------------------------------------------------------------
+CORRECOES TCC AGOSTO:
 
 1)Acompanhamento das versoes:
  - mudar nome do penultimo item onde é "inicio do desenvolvimento do sistema"
