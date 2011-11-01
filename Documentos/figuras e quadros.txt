@@ -1,4 +1,4 @@
-**4 Figuras na páginas 144 devem ser descartadas. Remover páginas 144 da Lista de figuras
+**4 Figuras na páginas 139 devem ser descartadas.
 
 Figura 1 – Modelo Clássico ou cascata
 Figura 2 – Estrutura Analítica do Projeto
@@ -55,6 +55,10 @@ Figura 52 – Diagrama de Sequencia: Consultar Voluntário
 Figura 53 – Diagrama de Sequencia: Relatório Voluntário
 Figura 54 – DTR
 Figura 55 – Requisição básica de MVC
+Figura 56 – Cadastro de família
+Figura 57 – Cadastro do questionário de família
+Figura 58 – Inclusão de item no estoque
+Figura 59 – Cadastro da entrega da cesta básica à família
 
 
 ------
@@ -108,16 +112,25 @@ Quadro 46 – estrutura de dados da tabela aros
 Quadro 47 – Funcionalidades implementadas
 Quadro 48 – Programas desenvolvidos
 Quadro 49 – Resumo dos testes
----
 Quadro 50 – Prazo do Primeiro Monitoramento e Controle
 Quadro 51 – Custo do Primeiro Monitoramento e Controle
 Quadro 52 – Prazo do Segundo Monitoramento e Controle
 Quadro 53 – Custo do Segundo Monitoramento e Controle
 Quadro 54 – Prazo do Terceiro Monitoramento e Controle
 Quadro 55 – Custo do Terceiro Monitoramento e Controle
-Quadro 56 – Tabela de Complexidade de Entrada
-Quadro 57 – Tabela de Complexidade de Saída
-Quadro 58 – Tabela de Complexidade ALI
-Quadro 59 – Tabela de Complexidade AIE
-Quadro 60 – Tabela de Complexidade de Consulta
-Quadro 61 – Tabela de pesos para FPA
+Quadro 56 – Prazo do Quarto Monitoramento e Controle
+Quadro 57 – Custo do Quarto Monitoramento e Controle
+Quadro 58 – Cadastro de família feito manualmente
+Quadro 59 – Cadastro de família com sistema SGCE
+Quadro 60 – Cadastro do questionário de família feito manualmente
+Quadro 61 – Cadastro do questionário de família com sistema SGCE
+Quadro 62 – Inclusão de item na planilha estoque feito manualmente
+Quadro 63 – Inclusão de item no estoque com sistema SGCE
+Quadro 64 – Cadastro de saída de cesta do estuque feito manualmente
+Quadro 65 – Cadastro de saída de cesta do estuque com sistema SGCE
+Quadro 66 – Tabela de Complexidade de Entrada
+Quadro 67 – Tabela de Complexidade de Saída
+Quadro 68 – Tabela de Complexidade ALI
+Quadro 69 – Tabela de Complexidade AIE
+Quadro 70 – Tabela de Complexidade de Consulta
+Quadro 71 – Tabela de pesos para FPA
