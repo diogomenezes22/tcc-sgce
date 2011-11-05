@@ -5,20 +5,18 @@ arrumar fig 18 pag 130 passar final da fase teste para idem da fase desenvolvime
 -------------------------------------------------------------------------
 CORRECOES TCC AGOSTO:
 
-1)Acompanhamento das versoes:
+1) OK> Acompanhamento das versoes:
  - mudar nome do penultimo item onde é "inicio do desenvolvimento do sistema"
 
-2)Revisar casos de uso nao alterados para apresentacao de agosto:
-- rel venc mantimento estoque
-- rel cestas disponiveis
-- rel itens pendentes das cestas
-- cadastrar freq familia
-- alterar freq familia
-- rel vencim matricula
-- rel familias aptas
-- rel voluntario
-
-3)Revisar diag de seq de todos do 2° desta lista
+3) OK> Revisar diag de seq desta lista:
+ok- rel venc mantimento estoque    
+ok- rel cestas disponiveis         
+ok- rel itens pendentes das cestas 
+ok- cadastrar freq familia         
+ok- alterar freq familia           
+ok- rel vencim matricula		 
+ok- rel familias aptas             
+ok- rel voluntario                 
 
 4)Cap 5
 OK - pag 172 2 marcacoes do furtuna 5.1-Cons Iniciais e 5.2-Arq SW
@@ -47,5 +45,3 @@ OK-pag 69 do odt na fig 11 trocar onde tem MANTIMENTO para ESTOQUE
 OK-incluir casos de uso e diagramas (caso def.Cesta, UC e seq) para DEFINICAOCESTA?????
 
 OK-conferir numeracoes de fig, quadros e tabelas (ordem e etc)
-	
-
