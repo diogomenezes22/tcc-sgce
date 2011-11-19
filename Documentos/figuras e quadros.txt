@@ -1,4 +1,4 @@
-**4 Figuras na páginas 139 devem ser descartadas.
+**4 Figuras na páginas 143 devem ser descartadas.
 
 Figura 1 – Modelo Clássico ou cascata
 Figura 2 – Estrutura Analítica do Projeto
@@ -100,7 +100,7 @@ Quadro 34 – estrutura de dados da tabela grupos
 Quadro 35 – estrutura de dados da tabela voluntarios
 Quadro 36 – estrutura de dados da tabela definicoescestas
 Quadro 37 – estrutura de dados da tabela estoques
-Quadro 38 – estrutura de dados da tabela cestas_estoques
+Quadro 38 – estrutura de dados da tabela intemcestas
 Quadro 39 – estrutura de dados da tabela cestas
 Quadro 40 – estrutura de dados da tabela frequencias
 Quadro 41 – estrutura de dados da tabela familias
