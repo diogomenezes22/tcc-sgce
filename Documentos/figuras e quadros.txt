@@ -1,4 +1,4 @@
-**4 Figuras na páginas 143 devem ser descartadas.
+**4 Figuras na páginas 140 devem ser descartadas.
 
 Figura 1 – Modelo Clássico ou cascata
 Figura 2 – Estrutura Analítica do Projeto
@@ -16,50 +16,48 @@ Figura 13 – Caso de uso Usuário
 Figura 14 – Caso de uso Definição Cesta
 Figura 15 – Caso de uso Voluntário
 Figura 16 – Caso de uso Log
-Figura 17 – Moledo conceitual de dados (DER)
-Figura 18 – Novo cronograma de atividades
-Figura 19 – Novo Gráfico de Gantt
-Figura 20 – Diagrama de Classe
-Figura 21 – Diagrama de Sequencia: Cadastrar Usuário
-Figura 22 – Diagrama de Sequencia: Alterar Usuário
-Figura 23 – Diagrama de Sequencia: Excluir Usuário
-Figura 24 – Diagrama de Sequencia: Consultar Usuário
-Figura 25 – Diagrama de Sequencia: Incluir Estoque
-Figura 26 – Diagrama de Sequencia: Alterar Estoque
-Figura 27 – Diagrama de Sequencia: Excluir Estoque
-Figura 28 – Diagrama de Sequencia: Consultar Estoque
-Figura 29 – Diagrama de Sequencia: Relatório de Vencimentos Estoque
-Figura 30 – Diagrama de Sequencia: Relatório de Cestas Disponíveis
-Figura 31 – Diagrama de Sequencia: Relatório de Itens Pendentes na Cesta
-Figura 32 – Diagrama de Sequencia: Cadastro Definição Cesta
-Figura 33 – Diagrama de Sequencia: Alterar Definição Cesta
-Figura 34 – Diagrama de Sequencia: Excluir Definição Cesta
-Figura 35 – Diagrama de Sequencia: Consultar Definição Cesta
-Figura 36 – Diagrama de Sequencia: Cadastrar Família
-Figura 37 – Diagrama de Sequencia: Cadastrar Frequência de Família
-Figura 38 – Diagrama de Sequencia: Alterar Família
-Figura 39 – Diagrama de Sequencia: Alterar Frequência Família
-Figura 40 – Diagrama de Sequencia: Excluir Família
-Figura 41 – Diagrama de Sequencia: Consultar Família
-Figura 42 – Diagrama de Sequencia: Consultar Frequência Família
-Figura 43 – Diagrama de Sequencia: Relatório Vencimento Matrícula
-Figura 44 – Diagrama de Sequencia: Relatório Família Apta
-Figura 45 – Diagrama de Sequencia: Efetuar Login
-Figura 46 – Diagrama de Sequencia: Recuperar Senha
-Figura 47 – Diagrama de Sequencia: Armazenar Log Sistema
-Figura 48 – Diagrama de Sequencia: Consultar Voluntário
-Figura 49 – Diagrama de Sequencia: Cadastrar Voluntário
-Figura 50 – Diagrama de Sequencia: Alterar Voluntário
-Figura 51 – Diagrama de Sequencia: Excluir Voluntário
-Figura 52 – Diagrama de Sequencia: Consultar Voluntário
-Figura 53 – Diagrama de Sequencia: Relatório Voluntário
-Figura 54 – DTR
-Figura 55 – Requisição básica de MVC
-Figura 56 – Cadastro de família
-Figura 57 – Cadastro do questionário de família
-Figura 58 – Inclusão de item no estoque
-Figura 59 – Cadastro da entrega da cesta básica à família
-
+Figura 17 – Novo cronograma de atividades
+Figura 18 – Novo Gráfico de Gantt
+Figura 19 – Diagrama de Classe
+Figura 20 – Diagrama de Sequencia: Cadastrar Usuário
+Figura 21 – Diagrama de Sequencia: Alterar Usuário
+Figura 22 – Diagrama de Sequencia: Excluir Usuário
+Figura 23 – Diagrama de Sequencia: Consultar Usuário
+Figura 24 – Diagrama de Sequencia: Incluir Estoque
+Figura 25 – Diagrama de Sequencia: Alterar Estoque
+Figura 26 – Diagrama de Sequencia: Excluir Estoque
+Figura 27 – Diagrama de Sequencia: Consultar Estoque
+Figura 28 – Diagrama de Sequencia: Relatório de Vencimentos Estoque
+Figura 29 – Diagrama de Sequencia: Relatório de Cestas Disponíveis
+Figura 30 – Diagrama de Sequencia: Relatório de Itens Pendentes na Cesta
+Figura 31 – Diagrama de Sequencia: Cadastro Definição Cesta
+Figura 32 – Diagrama de Sequencia: Alterar Definição Cesta
+Figura 33 – Diagrama de Sequencia: Excluir Definição Cesta
+Figura 34 – Diagrama de Sequencia: Consultar Definição Cesta
+Figura 35 – Diagrama de Sequencia: Cadastrar Família
+Figura 36 – Diagrama de Sequencia: Cadastrar Frequência de Família
+Figura 37 – Diagrama de Sequencia: Alterar Família
+Figura 38 – Diagrama de Sequencia: Alterar Frequência Família
+Figura 39 – Diagrama de Sequencia: Excluir Família
+Figura 40 – Diagrama de Sequencia: Consultar Família
+Figura 41 – Diagrama de Sequencia: Consultar Frequência Família
+Figura 42 – Diagrama de Sequencia: Relatório Vencimento Matrícula
+Figura 43 – Diagrama de Sequencia: Relatório Família Apta
+Figura 44 – Diagrama de Sequencia: Efetuar Login
+Figura 45 – Diagrama de Sequencia: Recuperar Senha
+Figura 46 – Diagrama de Sequencia: Armazenar Log Sistema
+Figura 47 – Diagrama de Sequencia: Consultar Voluntário
+Figura 48 – Diagrama de Sequencia: Cadastrar Voluntário
+Figura 49 – Diagrama de Sequencia: Alterar Voluntário
+Figura 50 – Diagrama de Sequencia: Excluir Voluntário
+Figura 51 – Diagrama de Sequencia: Consultar Voluntário
+Figura 52 – Diagrama de Sequencia: Relatório Voluntário
+Figura 53 – DTR
+Figura 54 – Requisição básica de MVC
+Figura 55 – Cadastro de família
+Figura 56 – Cadastro do questionário de família
+Figura 57 – Inclusão de item no estoque
+Figura 58 – Cadastro da entrega da cesta básica à família
 
 ------
 
