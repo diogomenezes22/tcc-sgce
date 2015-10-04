@@ -1,0 +1,2 @@
+Trabalho de Conclusão de Curso dos alunos Rafael Malatesta e Tales Araújo da Universidade UNIVERSO.
+O trabalho consiste em desenvolver um software para uma instituição filantrópica, Sociedade Espírita Joanna de Ângelis.
